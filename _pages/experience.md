@@ -7,6 +7,18 @@ nav_order: 2
 ---
 
 <div class="resume-entry">
+  <div class="resume-date">Sep 2026–Present<span class="resume-status">Current</span></div>
+  <div>
+    <h2>SEAL, KAIST</h2>
+    <p class="resume-role">Research Intern</p>
+    <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
+    <ul>
+      <li>Investigating <strong>optimization techniques for looped transformers</strong>.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="resume-entry">
   <div class="resume-date">Jun 2026–Present<span class="resume-status">Current</span></div>
   <div>
     <h2>PhaseGate</h2>

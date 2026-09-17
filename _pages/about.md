@@ -17,7 +17,7 @@ latest_posts:
 
 I am a Computer Science undergraduate at **KAIST**, interested in efficient machine learning systems and on-device LLM inference.
 
-My current research focuses on **on-device LLM inference and retrieval scheduling** through PhaseGate, advised by Prof. Sehoon Kim. Previously, I conducted research at UC San Diego, KAIST's SGVR Lab, and CJ AI Center.
+I am currently a **Research Intern at SEAL, KAIST**, advised by Prof. Sehoon Kim, investigating optimization techniques for looped transformers. I also work on **on-device LLM inference and retrieval scheduling** through PhaseGate. Previously, I conducted research at UC San Diego, KAIST's SGVR Lab, and CJ AI Center.
 
 **Email:** [gilbertyum@kaist.ac.kr](mailto:gilbertyum@kaist.ac.kr)
 

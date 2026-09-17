@@ -34,6 +34,17 @@ nav_order: 3
 <section id="research" aria-labelledby="research-heading">
   <h2 id="research-heading">Research experience</h2>
   <div class="resume-entry">
+    <div class="resume-date">Sep 2026–Present</div>
+    <div>
+      <h3>SEAL, KAIST</h3>
+      <p class="resume-role">Research Intern</p>
+      <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
+      <ul>
+        <li>Investigating <strong>optimization techniques for looped transformers</strong>.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="resume-entry">
     <div class="resume-date">Jun 2026–Present</div>
     <div>
       <h3>PhaseGate</h3>
