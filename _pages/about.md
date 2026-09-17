@@ -1,0 +1,26 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: ""
+profile:
+  align: right
+  image: profile.jpg
+  image_circular: false
+selected_papers: true
+social: true
+announcements:
+  enabled: false
+latest_posts:
+  enabled: false
+---
+
+I am a Computer Science undergraduate at **KAIST**, interested in efficient machine learning systems and on-device LLM inference.
+
+My current research focuses on **on-device LLM inference and retrieval scheduling** through PhaseGate, advised by Prof. Sehoon Kim. Previously, I conducted research at UC San Diego, KAIST's SGVR Lab, and CJ AI Center.
+
+**Email:** [gilbertyum@kaist.ac.kr](mailto:gilbertyum@kaist.ac.kr)
+
+## Research interests
+
+ML systems · On-device LLM inference · Resource-aware scheduling
