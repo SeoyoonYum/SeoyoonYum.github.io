@@ -1,0 +1,47 @@
+/* Small, homepage-only refinements to the al-folio layout. */
+.about-page .experience-link {
+  display: inline-block;
+  font-size: .9rem;
+  white-space: normal;
+}
+.about-page .experience-link:hover { text-decoration: underline; }
+.about-page a:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+.about-page .social .contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .9rem;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 1.5rem 0 .75rem;
+}
+.about-page .social .contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+.about-page .social .contact-icons a img,
+.about-page .social .contact-icons a svg,
+.about-page .social .contact-icons a svg image {
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .about-page .profile { width: 26%; }
+  .about-page .profile.float-right { margin-left: 2rem; }
+}
+@media (max-width: 575px) {
+  .about-page .profile.float-right,
+  .about-page .profile.float-left {
+    float: none;
+    width: min(65%, 220px);
+    margin: 0 auto 1.25rem;
+  }
+}

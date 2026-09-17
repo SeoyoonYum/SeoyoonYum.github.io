@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: experience
+title: Experience
 permalink: /experience/
 nav: true
 nav_order: 2
