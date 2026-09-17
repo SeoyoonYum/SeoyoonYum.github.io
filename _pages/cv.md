@@ -97,7 +97,7 @@ nav_order: 3
     <li>
       <h3>PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
-      <p>Manuscript under review at a NeurIPS 2026 ODI workshop.</p>
+      <p>Under review for NeurIPS 2026 ODI Workshop.</p>
     </li>
     <li>
       <h3>Zero-Shot Time-Series Foundation Models for Infrastructure Anomaly Detection</h3>
