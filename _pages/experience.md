@@ -4,6 +4,7 @@ title: Experience
 permalink: /experience/
 nav: true
 nav_order: 2
+nav_url: /#research-experience
 ---
 
 <div class="resume-entry">

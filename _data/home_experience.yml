@@ -1,0 +1,20 @@
+- organization: SEAL, KAIST
+  role: Research Intern
+  period: Sep 2026–Present
+  summary: Investigating optimization techniques for looped transformers.
+- organization: PhaseGate
+  role: Independent Researcher
+  period: Jun 2026–Present
+  summary: Phase-aware CPU retrieval scheduling for on-device LLMs, achieving 2.0× throughput under the same latency constraint.
+- organization: CHEI Lab, UC San Diego
+  role: Research Intern
+  period: Jun–Aug 2026
+  summary: Evaluated frozen Toto 2.0 for zero-shot anomaly detection on production Ceph and DigitalPath telemetry.
+- organization: SGVR Lab, KAIST
+  role: Research Intern
+  period: Jan 2026
+  summary: Studied semantic robustness of Octo-Small vision-language-action policies under meaning-preserving instruction perturbations.
+- organization: CJ AI Center
+  role: Research Intern
+  period: Summer 2023
+  summary: Built a real-time EEG-to-robotic-arm brain–computer interface using PyTorch.

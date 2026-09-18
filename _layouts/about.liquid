@@ -66,6 +66,8 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    {% include home_experience.liquid %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
@@ -84,3 +86,4 @@ layout: default
     {% endif %}
   </article>
 </div>
+<script src="{{ '/assets/js/home-navigation.js' | relative_url }}" defer></script>

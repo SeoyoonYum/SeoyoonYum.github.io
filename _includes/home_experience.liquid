@@ -1,0 +1,16 @@
+<section id="research-experience" class="home-experience" aria-labelledby="home-experience-heading" tabindex="-1">
+  <h2 id="home-experience-heading">Research Experience</h2>
+  <ol class="home-experience-list">
+    {% for entry in site.data.home_experience %}
+      <li class="home-experience-entry">
+        <div class="home-experience-date">{{ entry.period | escape }}</div>
+        <div>
+          <h3>{{ entry.organization | escape }}</h3>
+          <p class="home-experience-role">{{ entry.role | escape }}</p>
+          <p class="home-experience-summary">{{ entry.summary | escape }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+  <a class="experience-link" href="{{ '/experience/' | relative_url }}">View full research experience <span aria-hidden="true">→</span></a>
+</section>

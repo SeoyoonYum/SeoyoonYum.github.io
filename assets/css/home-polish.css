@@ -37,7 +37,40 @@
   .about-page .profile { width: 26%; }
   .about-page .profile.float-right { margin-left: 2rem; }
 }
+.about-page .home-experience {
+  margin: 2rem 0;
+  scroll-margin-top: 5rem;
+}
+.about-page .home-experience-list {
+  list-style: none;
+  margin: .75rem 0 1rem;
+  padding: 0;
+}
+.about-page .home-experience-entry {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: .25rem 1.75rem;
+  padding: .9rem 0;
+}
+.about-page .home-experience-entry + .home-experience-entry {
+  border-top: 1px solid var(--global-divider-color);
+}
+.about-page .home-experience h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+.about-page .home-experience-date,
+.about-page .home-experience-role {
+  font-size: .9rem;
+  color: color-mix(in srgb, var(--global-text-color) 75%, var(--global-bg-color));
+}
+.about-page .home-experience-date { padding-top: .15rem; }
+.about-page .home-experience-role { margin: .1rem 0 .3rem; }
+.about-page .home-experience-summary { margin: 0; line-height: 1.65; }
 @media (max-width: 575px) {
+  .about-page .home-experience-entry { grid-template-columns: minmax(0, 1fr); }
   .about-page .profile.float-right,
   .about-page .profile.float-left {
     float: none;
