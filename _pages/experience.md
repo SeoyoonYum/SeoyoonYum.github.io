@@ -39,7 +39,7 @@ nav_url: /#research-experience
     <p class="resume-role">Research Intern</p>
     <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
     <ul>
-      <li>Built a zero-shot anomaly-detection pipeline using frozen <strong>Toto 2.0</strong> on production Ceph and DigitalPath telemetry.</li>
+      <li>Evaluated a <strong>time-series foundation model</strong> for zero-shot anomaly detection on production Ceph and DigitalPath telemetry.</li>
       <li>Evaluated proxy anomalies and alert-volume tradeoffs; found that forecast residuals did <strong>not reliably predict genuine failures</strong>.</li>
     </ul>
   </div>

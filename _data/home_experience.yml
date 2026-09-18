@@ -9,7 +9,7 @@
 - organization: CHEI Lab, UC San Diego
   role: Research Intern
   period: Jun–Aug 2026
-  summary: Evaluated frozen Toto 2.0 for zero-shot anomaly detection on production Ceph and DigitalPath telemetry.
+  summary: Evaluated a time-series foundation model for zero-shot anomaly detection on production Ceph and DigitalPath telemetry.
 - organization: SGVR Lab, KAIST
   role: Research Intern
   period: Jan 2026
