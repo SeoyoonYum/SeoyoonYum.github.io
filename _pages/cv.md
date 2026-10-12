@@ -14,7 +14,7 @@ nav_order: 3
 <nav class="resume-nav" aria-label="CV sections">
   <a href="#education">Education</a>
   <a href="#research">Research</a>
-  <a href="#selected-work">Selected work</a>
+  <a href="#publications">Publications</a>
   <a href="#leadership">Leadership</a>
   <a href="#skills">Skills</a>
 </nav>
@@ -92,13 +92,13 @@ nav_order: 3
   </div>
 </section>
 
-<section id="selected-work" aria-labelledby="work-heading">
-  <h2 id="work-heading">Selected work</h2>
+<section id="publications" aria-labelledby="publications-heading">
+  <h2 id="publications-heading">Publications</h2>
   <ol class="resume-works">
     <li>
-      <h3>PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</h3>
+      <h3><a href="https://arxiv.org/abs/2610.04537">PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</a></h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
-      <p>Accepted at the NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under Real-World Constraints (ODI). <a href="https://arxiv.org/abs/2610.04537">arXiv</a> · <a href="https://arxiv.org/pdf/2610.04537">PDF</a></p>
+      <p>NeurIPS 2026 Workshop on On-Device Intelligence.</p>
     </li>
     <li>
       <h3>Zero-Shot Time-Series Foundation Models for Infrastructure Anomaly Detection</h3>
