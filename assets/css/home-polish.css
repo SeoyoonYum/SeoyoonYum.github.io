@@ -24,7 +24,6 @@
 .about-page .home-paper-authors { font-size: .95rem; margin: 0 0 .25rem; color: #505050; }
 .about-page .home-paper-authors strong { font-weight: 500; }
 .about-page .home-paper-venue { font-size: .92rem; line-height: 1.55; margin: 0 0 .65rem; color: #505050; }
-.about-page .home-paper-status { display: inline-block; margin-left: .55rem; font-size: .8rem; color: #356d4f; }
 .about-page .home-paper-links { display: flex; gap: .45rem; flex-wrap: wrap; }
 .about-page .home-paper-links a { border: 1px solid #d4d4d4; border-radius: 3px; padding: .1rem .55rem; color: #333; font-size: .78rem; line-height: 1.65; }
 .about-page .home-paper-links a:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); text-decoration: none; }
@@ -47,5 +46,4 @@
   .about-page .home-publications h2 { font-size: 1.45rem; margin-bottom: 1.1rem; }
   .about-page .home-paper { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
   .about-page .home-paper-preview { width: 160px; min-height: 0; }
-  .about-page .home-paper-status { margin-left: .35rem; }
 }
