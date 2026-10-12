@@ -1,80 +1,51 @@
-/* Small, homepage-only refinements to the al-folio layout. */
-.about-page .experience-link {
-  display: inline-block;
-  font-size: .9rem;
-  white-space: normal;
+/* A compact academic homepage: introduction, links, and featured work. */
+:root { --global-theme-color: #2455a4; }
+.about-page { max-width: 930px; }
+.about-page .post-header { margin-bottom: 1.7rem; }
+.about-page .post-title { margin: 0 0 .45rem; font-size: 2.5rem; line-height: 1.2; font-weight: 300; }
+.about-page .home-affiliation { margin: 0; font-size: .95rem; }
+.about-page .home-intro { display: grid; grid-template-columns: minmax(0, 1fr) 192px; gap: 2.5rem; align-items: start; }
+.about-page .home-bio { grid-column: 1; grid-row: 1; font-size: 1rem; line-height: 1.7; }
+.about-page .home-bio p { margin: 0 0 1rem; }
+.about-page .home-portrait { grid-column: 2; grid-row: 1; margin: 0; }
+.about-page .home-portrait img { display: block; width: 192px; height: 192px; object-fit: cover; object-position: center 35%; border-radius: 50%; }
+.about-page .home-links { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .6rem; margin-top: 1.2rem; }
+.about-page .home-links span { color: #9a9a9a; }
+.about-page .home-publications { margin-top: 3.25rem; }
+.about-page .home-publications h2 { margin: 0 0 1.6rem; font-size: 1.65rem; line-height: 1.3; font-weight: 400; }
+.about-page .home-featured-papers .bibliography { list-style: none; padding: 0; margin: 0; }
+.about-page .home-featured-papers .bibliography > li { margin: 0; }
+.about-page .home-paper { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 1.65rem; align-items: start; }
+.about-page .home-paper-preview { display: flex; align-items: center; min-height: 100px; border: 1px solid #ededed; border-radius: 5px; padding: 8px; background: #fff; }
+.about-page .home-paper-preview img { display: block; width: 100%; height: auto; }
+.about-page .home-paper h3 { font-size: 1.05rem; line-height: 1.45; font-weight: 600; margin: 0 0 .4rem; }
+.about-page .home-paper h3 a { color: var(--global-text-color); }
+.about-page .home-paper h3 a:hover { color: var(--global-theme-color); }
+.about-page .home-paper-authors { font-size: .95rem; margin: 0 0 .25rem; color: #505050; }
+.about-page .home-paper-authors strong { font-weight: 500; }
+.about-page .home-paper-venue { font-size: .92rem; line-height: 1.55; margin: 0 0 .65rem; color: #505050; }
+.about-page .home-paper-status { display: inline-block; margin-left: .55rem; font-size: .8rem; color: #356d4f; }
+.about-page .home-paper-links { display: flex; gap: .45rem; flex-wrap: wrap; }
+.about-page .home-paper-links a { border: 1px solid #d4d4d4; border-radius: 3px; padding: .1rem .55rem; color: #333; font-size: .78rem; line-height: 1.65; }
+.about-page .home-paper-links a:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); text-decoration: none; }
+.about-page .home-all-work { margin: 1.75rem 0 0; font-size: .9rem; }
+.about-page a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+@media (max-width: 700px) {
+  .about-page .home-intro { grid-template-columns: minmax(0, 1fr) 150px; gap: 1.5rem; }
+  .about-page .home-portrait img { width: 150px; height: 150px; }
+  .about-page .home-paper { grid-template-columns: 130px minmax(0, 1fr); gap: 1.1rem; }
 }
-.about-page .experience-link:hover { text-decoration: underline; }
-.about-page a:focus-visible {
-  outline: 2px solid var(--global-theme-color);
-  outline-offset: 4px;
-}
-.about-page .social .contact-icons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: .9rem;
-  font-size: 2rem;
-  line-height: 1;
-  margin: 1.5rem 0 .75rem;
-}
-.about-page .social .contact-icons a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 44px;
-  min-height: 44px;
-}
-.about-page .social .contact-icons a img,
-.about-page .social .contact-icons a svg,
-.about-page .social .contact-icons a svg image {
-  width: 2rem;
-  height: 2rem;
-  margin: 0;
-}
-@media (min-width: 576px) {
-  .about-page .profile { width: 26%; }
-  .about-page .profile.float-right { margin-left: 2rem; }
-}
-.about-page .home-experience {
-  margin: 2rem 0;
-  scroll-margin-top: 5rem;
-}
-.about-page .home-experience-list {
-  list-style: none;
-  margin: .75rem 0 1rem;
-  padding: 0;
-}
-.about-page .home-experience-entry {
-  display: grid;
-  grid-template-columns: 9.5rem minmax(0, 1fr);
-  gap: .25rem 1.75rem;
-  padding: .9rem 0;
-}
-.about-page .home-experience-entry + .home-experience-entry {
-  border-top: 1px solid var(--global-divider-color);
-}
-.about-page .home-experience h3 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  line-height: 1.5;
-  margin: 0;
-}
-.about-page .home-experience-date,
-.about-page .home-experience-role {
-  font-size: .9rem;
-  color: color-mix(in srgb, var(--global-text-color) 75%, var(--global-bg-color));
-}
-.about-page .home-experience-date { padding-top: .15rem; }
-.about-page .home-experience-role { margin: .1rem 0 .3rem; }
-.about-page .home-experience-summary { margin: 0; line-height: 1.65; }
 @media (max-width: 575px) {
-  .about-page .home-experience-entry { grid-template-columns: minmax(0, 1fr); }
-  .about-page .profile.float-right,
-  .about-page .profile.float-left {
-    float: none;
-    width: min(65%, 220px);
-    margin: 0 auto 1.25rem;
-  }
+  .about-page .post-title { font-size: 2.1rem; }
+  .about-page .home-affiliation { font-size: .88rem; }
+  .about-page .home-intro { display: block; }
+  .about-page .home-intro::after { content: ''; display: table; clear: both; }
+  .about-page .home-portrait { float: right; margin: .25rem 0 .8rem 1.1rem; }
+  .about-page .home-portrait img { width: 105px; height: 105px; }
+  .about-page .home-links { clear: both; }
+  .about-page .home-publications { margin-top: 2.2rem; }
+  .about-page .home-publications h2 { font-size: 1.45rem; margin-bottom: 1.1rem; }
+  .about-page .home-paper { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
+  .about-page .home-paper-preview { width: 160px; min-height: 0; }
+  .about-page .home-paper-status { margin-left: .35rem; }
 }

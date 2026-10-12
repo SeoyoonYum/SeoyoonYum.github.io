@@ -1,0 +1,19 @@
+---
+---
+<div class="home-paper">
+  {% if entry.preview %}
+    <a class="home-paper-preview" href="https://arxiv.org/abs/{{ entry.arxiv }}" aria-label="Read {{ entry.title | escape }} on arXiv">
+      <img src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="PhaseGate overview: CPU retrieval and GPU inference share unified memory." loading="lazy">
+    </a>
+  {% endif %}
+  <div>
+    <h3><a href="https://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a></h3>
+    <p class="home-paper-authors">{% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if site.scholar.last_name contains author.last and site.scholar.first_name contains author.first %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}</p>
+    <p class="home-paper-venue">{{ entry.abbr }} <span class="home-paper-status">{{ entry.note }}</span></p>
+    <div class="home-paper-links">
+      {% if entry.pdf %}<a href="{{ entry.pdf }}">PDF</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>{% endif %}
+      {% if entry.code %}<a href="{{ entry.code }}">Code</a>{% endif %}
+    </div>
+  </div>
+</div>

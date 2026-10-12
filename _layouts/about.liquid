@@ -1,89 +1,36 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ '/assets/css/publication-status.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/home-polish.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/home-polish.css' | relative_url | bust_file_cache }}">
 <div class="post about-page">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <h1 class="post-title"><span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}</h1>
+    <p class="home-affiliation"><a href="https://www.kaist.ac.kr/en/">Korea Advanced Institute of Science and Technology</a></p>
   </header>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.26}}px, (min-width: 576px)
-      26vw, 220px{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+  <div class="home-intro">
+    <figure class="home-portrait">
+      <img src="{{ '/assets/img/profile.jpg' | relative_url | bust_file_cache }}" alt="Seoyoon Yum" width="192" height="192" loading="eager">
+    </figure>
+    <div class="home-bio">
+      {{ content }}
+      <nav class="home-links" aria-label="Contact and profiles">
+        <a href="mailto:{{ site.data.socials.email }}">Email</a>
+        <span aria-hidden="true">/</span>
+        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>
+        <span aria-hidden="true">/</span>
+        <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
+        <span aria-hidden="true">/</span>
+        <a href="{{ site.data.socials.cv_pdf | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </div>
 
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    {% include home_experience.liquid %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% if site.plugins contains 'al_newsletter' %}
-        {% include plugins/al_newsletter_form_center_margin.liquid %}
-      {% else %}
-        {% include newsletter.liquid center=true %}
-      {% endif %}
-    {% endif %}
-  </article>
+  <section class="home-publications" aria-labelledby="selected-publications-heading">
+    <h2 id="selected-publications-heading">Selected publications</h2>
+    <div class="home-featured-papers">
+      {% bibliography --group_by none --query @*[selected=true]* --template home-paper %}
+    </div>
+    <p class="home-all-work"><a href="{{ '/publications/' | relative_url }}">All publications and technical reports →</a></p>
+  </section>
 </div>
-<script src="{{ '/assets/js/home-navigation.js' | relative_url }}" defer></script>

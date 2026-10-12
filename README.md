@@ -1,7 +1,7 @@
 # Seoyoon Yum — al-folio website
 
 Built with the actual al-folio 1.x starter and its pinned runtime gems.
-Content reflects the September 18, 2026 CV. The profile photograph is in `assets/img/profile.jpg`.
+Content reflects the October 13, 2026 CV. The homepage uses a compact introduction and one featured workshop paper; detailed experience and technical reports have their own pages. The profile photograph is in `assets/img/profile.jpg`.
 
 ## Preview locally
 
@@ -17,12 +17,14 @@ Open http://127.0.0.1:4174/.
 ## Edit
 
 - Introduction: `_pages/about.md`
-- Publications: `_bibliography/papers.bib`
+- Publications: `_bibliography/papers.bib` (only entries with `selected={true}` appear on the homepage)
+- Featured paper layout: `_layouts/home-paper.liquid`
+- Homepage styling: `assets/css/home-polish.css`
 - Experience: `_pages/experience.md`
 - CV page: `_pages/cv.md`
 - Public CV (phone number removed): `assets/pdf/Seoyoon_Yum_CV.pdf`
 - Photo: `assets/img/profile.jpg`
-- Email and GitHub: `_data/socials.yml`
+- Email, GitHub, and Google Scholar: `_data/socials.yml`
 
 ## GitHub Pages
 
