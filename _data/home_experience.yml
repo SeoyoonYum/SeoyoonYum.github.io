@@ -1,7 +1,7 @@
-- organization: SEAL, KAIST
+- organization: SEAL Lab, KAIST
   role: Research Intern
   period: Sep 2026–Present
-  summary: Investigating optimization techniques for looped transformers.
+  summary: Researching quantization and efficient inference for looped transformers.
 - organization: PhaseGate
   role: Independent Researcher
   period: Jun 2026–Present

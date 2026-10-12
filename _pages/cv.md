@@ -8,8 +8,9 @@ nav_order: 3
 
 <div class="resume-toolbar">
   <a class="resume-download" href="{{ '/assets/pdf/Seoyoon_Yum_CV.pdf' | relative_url }}">Download CV (PDF) <span aria-hidden="true">&nbsp;↓</span></a>
-  <span class="resume-meta">Updated September 2026</span>
+  <span class="resume-meta">Updated October 2026</span>
 </div>
+<p class="resume-meta"><a href="https://scholar.google.com/citations?user=Ck0gPk0AAAAJ">Google Scholar</a> · <a href="https://github.com/SeoyoonYum">GitHub</a></p>
 <nav class="resume-nav" aria-label="CV sections">
   <a href="#education">Education</a>
   <a href="#research">Research</a>
@@ -36,11 +37,11 @@ nav_order: 3
   <div class="resume-entry">
     <div class="resume-date">Sep 2026–Present</div>
     <div>
-      <h3>SEAL, KAIST</h3>
+      <h3>SEAL Lab, KAIST</h3>
       <p class="resume-role">Research Intern</p>
       <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
       <ul>
-        <li>Investigating <strong>optimization techniques for looped transformers</strong>.</li>
+        <li>Researching <strong>quantization and efficient inference for looped transformers</strong>.</li>
       </ul>
     </div>
   </div>
@@ -97,7 +98,7 @@ nav_order: 3
     <li>
       <h3>PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
-      <p>Under review for NeurIPS 2026 ODI Workshop.</p>
+      <p>Accepted at the NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under Real-World Constraints (ODI). <a href="https://arxiv.org/abs/2610.04537">arXiv</a> · <a href="https://arxiv.org/pdf/2610.04537">PDF</a></p>
     </li>
     <li>
       <h3>Zero-Shot Time-Series Foundation Models for Infrastructure Anomaly Detection</h3>

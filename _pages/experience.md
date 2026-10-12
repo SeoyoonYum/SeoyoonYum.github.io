@@ -10,11 +10,11 @@ nav_url: /#research-experience
 <div class="resume-entry">
   <div class="resume-date">Sep 2026–Present<span class="resume-status">Current</span></div>
   <div>
-    <h2>SEAL, KAIST</h2>
+    <h2>SEAL Lab, KAIST</h2>
     <p class="resume-role">Research Intern</p>
     <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
     <ul>
-      <li>Investigating <strong>optimization techniques for looped transformers</strong>.</li>
+      <li>Researching <strong>quantization and efficient inference for looped transformers</strong>.</li>
     </ul>
   </div>
 </div>
