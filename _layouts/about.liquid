@@ -3,16 +3,12 @@ layout: default
 ---
 <link rel="stylesheet" href="{{ '/assets/css/home-polish.css' | relative_url | bust_file_cache }}">
 <div class="post about-page">
-  <header class="post-header">
-    <h1 class="post-title"><span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}</h1>
-    <p class="home-affiliation"><a href="https://www.kaist.ac.kr/en/">Korea Advanced Institute of Science and Technology</a></p>
-  </header>
-
   <div class="home-intro">
-    <figure class="home-portrait">
-      <img src="{{ '/assets/img/profile.jpg' | relative_url | bust_file_cache }}" alt="Seoyoon Yum" width="192" height="192" loading="eager">
-    </figure>
     <div class="home-bio">
+      <header class="post-header">
+        <h1 class="post-title">{{ site.first_name }} {{ site.last_name }}</h1>
+        <p class="home-affiliation">CS @ KAIST · ML Systems</p>
+      </header>
       {{ content }}
       <nav class="home-links" aria-label="Contact and profiles">
         <a href="mailto:{{ site.data.socials.email }}">Email</a>
@@ -24,13 +20,18 @@ layout: default
         <a href="{{ site.data.socials.cv_pdf | relative_url }}">CV</a>
       </nav>
     </div>
+    <figure class="home-portrait">
+      <img src="{{ '/assets/img/profile.jpg' | relative_url | bust_file_cache }}" alt="Seoyoon Yum" width="180" height="180" loading="eager">
+    </figure>
   </div>
 
-  <section class="home-publications" aria-labelledby="selected-publications-heading">
-    <h2 id="selected-publications-heading">Selected publications</h2>
-    <div class="home-featured-papers">
+  <section class="home-publications" aria-labelledby="publications-heading">
+    <h2 id="publications-heading">Publications</h2>
+    <div class="home-publication-list">
       {% bibliography --group_by none --query @*[selected=true]* --template home-paper %}
     </div>
-    <p class="home-all-work"><a href="{{ '/publications/' | relative_url }}">All publications and technical reports →</a></p>
+    <p class="home-all-work"><a href="{{ '/publications/' | relative_url }}">All publications and technical reports <span aria-hidden="true">→</span></a></p>
   </section>
+
+  {% include home_experience.liquid %}
 </div>

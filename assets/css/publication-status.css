@@ -5,3 +5,13 @@
   padding: .4rem .5rem;
   text-wrap: balance;
 }
+
+/* al-folio marks the site owner's name with em in each author list. */
+.publications .author em {
+  font-weight: 700;
+}
+
+.publications #yum2026phasegate .periodical em,
+.publications .row:has(#yum2026phasegate) .abbr abbr.badge {
+  font-weight: 700;
+}

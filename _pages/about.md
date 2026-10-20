@@ -4,6 +4,6 @@ title: About
 permalink: /
 ---
 
-I am a Computer Science undergraduate at [KAIST](https://www.kaist.ac.kr/en/) and a Research Intern at [SEAL Lab](https://seal-kaist.github.io/), advised by [Prof. Sehoon Kim](https://sehoonkim.org/). My research focuses on efficient LLM inference, with current work on **quantization for looped transformers**.
+I work on **efficient AI systems**, focusing on LLM inference, resource scheduling, and quantization.
 
-Previously, I worked at UC San Diego's CHEI Lab, KAIST's SGVR Lab, and CJ AI Center. [Research experience →](/experience/)
+I am a Computer Science undergraduate at [KAIST](https://www.kaist.ac.kr/en/), currently working with [Prof. Sehoon Kim](https://sehoonkim.org/) as an Undergraduate Researcher at [SEAL Lab](https://seal-kaist.github.io/). Previously, I was a research intern at UC San Diego, advised by Prof. Falko Kuester.

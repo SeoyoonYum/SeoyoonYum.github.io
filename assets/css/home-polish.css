@@ -1,49 +1,66 @@
-/* A compact academic homepage: introduction, links, and featured work. */
+/* Research-first content, within the site's existing light academic style. */
 :root { --global-theme-color: #2455a4; }
-.about-page { max-width: 930px; }
-.about-page .post-header { margin-bottom: 1.7rem; }
-.about-page .post-title { margin: 0 0 .45rem; font-size: 2.5rem; line-height: 1.2; font-weight: 300; }
-.about-page .home-affiliation { margin: 0; font-size: .95rem; }
-.about-page .home-intro { display: grid; grid-template-columns: minmax(0, 1fr) 192px; gap: 2.5rem; align-items: start; }
-.about-page .home-bio { grid-column: 1; grid-row: 1; font-size: 1rem; line-height: 1.7; }
-.about-page .home-bio p { margin: 0 0 1rem; }
-.about-page .home-portrait { grid-column: 2; grid-row: 1; margin: 0; }
-.about-page .home-portrait img { display: block; width: 192px; height: 192px; object-fit: cover; object-position: center 35%; border-radius: 50%; }
-.about-page .home-links { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .6rem; margin-top: 1.2rem; }
-.about-page .home-links span { color: #9a9a9a; }
-.about-page .home-publications { margin-top: 3.25rem; }
-.about-page .home-publications h2 { margin: 0 0 1.6rem; font-size: 1.65rem; line-height: 1.3; font-weight: 400; }
-.about-page .home-featured-papers .bibliography { list-style: none; padding: 0; margin: 0; }
-.about-page .home-featured-papers .bibliography > li { margin: 0; }
-.about-page .home-paper { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 1.65rem; align-items: start; }
-.about-page .home-paper-preview { display: flex; align-items: center; min-height: 100px; border: 1px solid #ededed; border-radius: 5px; padding: 8px; background: #fff; }
-.about-page .home-paper-preview img { display: block; width: 100%; height: auto; }
-.about-page .home-paper h3 { font-size: 1.05rem; line-height: 1.45; font-weight: 600; margin: 0 0 .4rem; }
-.about-page .home-paper h3 a { color: var(--global-text-color); }
-.about-page .home-paper h3 a:hover { color: var(--global-theme-color); }
-.about-page .home-paper-authors { font-size: .95rem; margin: 0 0 .25rem; color: #505050; }
-.about-page .home-paper-authors strong { font-weight: 500; }
-.about-page .home-paper-venue { font-size: .92rem; line-height: 1.55; margin: 0 0 .65rem; color: #505050; }
-.about-page .home-paper-links { display: flex; gap: .45rem; flex-wrap: wrap; }
-.about-page .home-paper-links a { border: 1px solid #d4d4d4; border-radius: 3px; padding: .1rem .55rem; color: #333; font-size: .78rem; line-height: 1.65; }
-.about-page .home-paper-links a:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); text-decoration: none; }
-.about-page .home-all-work { margin: 1.75rem 0 0; font-size: .9rem; }
+.about-page { max-width: 930px; --home-heading: #1e344d; --home-body: #434c58; --home-muted: #626d7b; --home-rule: #e2e5e8; color: var(--home-body); }
+.about-page .home-intro { display: grid; grid-template-columns: minmax(0, 1fr) 180px; align-items: start; gap: 3rem; padding: .8rem 0 .3rem; }
+.about-page .post-header { margin: 0 0 1.4rem; }
+.about-page .post-title { margin: 0 0 .65rem; color: #162330; font-size: 3rem; line-height: 1.15; font-weight: 700; letter-spacing: -.035em; }
+.about-page .home-affiliation { margin: 0; color: var(--home-muted); font-size: 1.06rem; }
+.about-page .home-bio > p { color: var(--home-body); font-size: 1.08rem; line-height: 1.8; margin: 0; max-width: 39rem; }
+.about-page .home-bio > p:first-of-type { color: #26384c; font-size: 1.15rem; }
+.about-page .home-bio > p + p { margin-top: 1rem; font-size: .98rem; line-height: 1.85; }
+.about-page .home-bio > p strong { font-weight: 600; }
+.about-page .home-portrait { margin: .6rem 0 0; }
+.about-page .home-portrait img { display: block; width: 180px; height: 180px; border-radius: 50%; object-fit: cover; object-position: center 35%; }
+.about-page .home-links { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem .75rem; margin-top: 1.5rem; }
+.about-page .home-links span { color: #868b91; }
+.about-page section { margin-top: 3rem; padding-top: 2.4rem; border-top: 1px solid var(--home-rule); scroll-margin-top: 6rem; }
+.about-page section h2 { margin: 0 0 1.9rem; color: var(--home-heading); font-family: Georgia, "Times New Roman", serif; font-size: 1.95rem; line-height: 1.3; font-weight: 400; letter-spacing: -.025em; }
+.about-page h3 { color: var(--home-heading); font-size: 1.2rem; line-height: 1.5; font-weight: 600; margin: 0 0 .65rem; }
+.about-page h3 a { color: var(--home-heading); }
+.about-page h3 a:hover { color: var(--global-theme-color); }
+.about-page .home-publication-list .bibliography { list-style: none; padding: 0; margin: 0; }
+.about-page .home-publication-list .bibliography > li { margin: 0; }
+.about-page .home-publication-list .bibliography > li + li { margin-top: 2rem; }
+.about-page .home-paper-authors { margin: 0 0 .35rem; color: var(--home-body); font-size: .95rem; }
+.about-page .home-paper-authors strong, .about-page .home-paper-venue strong { color: inherit; font-weight: 700; }
+.about-page .home-paper-venue { margin: 0; color: #2455a4; font-size: .88rem; line-height: 1.6; }
+.about-page .home-paper-summary { margin: 1.1rem 0 .75rem; color: var(--home-body); font-size: 1rem; line-height: 1.8; }
+.about-page .home-paper-summary strong { color: var(--home-heading); font-weight: 700; }
+.about-page .home-paper-links { display: flex; flex-wrap: wrap; gap: .25rem 1.2rem; }
+.about-page .home-paper-links a { display: inline-flex; align-items: center; gap: .25rem; min-height: 36px; font-size: .94rem; }
+.about-page .home-all-work { margin: 1rem 0 0; font-size: .88rem; }
+.about-page .home-experience-list { list-style: none; padding: 0; margin: 0; }
+.about-page .home-experience-entry { margin: 0 0 2.4rem; }
+.about-page .home-experience-header { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
+.about-page .home-experience-header h3 { margin: 0; }
+.about-page .home-experience-date { flex-shrink: 0; margin: 0; font-size: .87rem; color: var(--home-muted); font-variant-numeric: tabular-nums; }
+.about-page .home-experience-role { margin: .4rem 0 .85rem; color: var(--home-muted); font-size: .9rem; line-height: 1.6; }
+.about-page .home-experience-summary { margin: 0; color: var(--home-body); font-size: .98rem; line-height: 1.8; }
+.about-page .home-experience-summary strong { color: #34485f; font-weight: 600; }
+.about-page .experience-link { font-size: .94rem; }
 .about-page a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+#seal, #publications-heading { scroll-margin-top: 6rem; }
 @media (max-width: 700px) {
-  .about-page .home-intro { grid-template-columns: minmax(0, 1fr) 150px; gap: 1.5rem; }
-  .about-page .home-portrait img { width: 150px; height: 150px; }
-  .about-page .home-paper { grid-template-columns: 130px minmax(0, 1fr); gap: 1.1rem; }
+  .about-page .home-intro { grid-template-columns: minmax(0, 1fr) 140px; gap: 1.5rem; }
+  .about-page .home-portrait img { width: 140px; height: 140px; }
+  .about-page .post-title { font-size: 2.4rem; }
+  .about-page .home-experience-header { flex-wrap: wrap; gap: .2rem; }
 }
 @media (max-width: 575px) {
-  .about-page .post-title { font-size: 2.1rem; }
-  .about-page .home-affiliation { font-size: .88rem; }
-  .about-page .home-intro { display: block; }
-  .about-page .home-intro::after { content: ''; display: table; clear: both; }
-  .about-page .home-portrait { float: right; margin: .25rem 0 .8rem 1.1rem; }
-  .about-page .home-portrait img { width: 105px; height: 105px; }
-  .about-page .home-links { clear: both; }
-  .about-page .home-publications { margin-top: 2.2rem; }
-  .about-page .home-publications h2 { font-size: 1.45rem; margin-bottom: 1.1rem; }
-  .about-page .home-paper { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
-  .about-page .home-paper-preview { width: 160px; min-height: 0; }
+  .about-page .home-intro { position: relative; display: block; padding-top: 0; }
+  .about-page .post-header { min-height: 96px; padding-right: 110px; margin-bottom: 1.3rem; display: flex; flex-direction: column; justify-content: center; }
+  .about-page .post-title { font-size: 2rem; }
+  .about-page .home-affiliation { font-size: .9rem; line-height: 1.6; }
+  .about-page .home-portrait { position: absolute; top: 0; right: 0; }
+  .about-page .home-portrait img { width: 92px; height: 92px; }
+  .about-page .home-bio > p { font-size: 1rem; }
+  .about-page .home-bio > p:first-of-type { font-size: 1.08rem; }
+  .about-page .home-bio > p + p { font-size: .96rem; }
+  .about-page .home-links { gap: .35rem .6rem; margin-top: 1rem; font-size: .95rem; }
+  .about-page section { margin-top: 2rem; padding-top: 1.8rem; }
+  .about-page section h2 { font-size: 1.7rem; margin-bottom: 1.5rem; }
+  .about-page .home-experience-header { display: block; }
+  .about-page .home-experience-date { margin-top: .25rem; }
+  .about-page .home-experience-entry { margin-bottom: 1.7rem; }
+  .about-page .home-paper-links a { min-height: 44px; }
 }

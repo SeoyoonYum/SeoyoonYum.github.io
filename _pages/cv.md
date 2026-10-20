@@ -38,7 +38,7 @@ nav_order: 3
     <div class="resume-date">Sep 2026–Present</div>
     <div>
       <h3>SEAL Lab, KAIST</h3>
-      <p class="resume-role">Research Intern</p>
+      <p class="resume-role">Undergraduate Researcher</p>
       <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
       <ul>
         <li>Researching <strong>quantization and efficient inference for looped transformers</strong>.</li>
@@ -73,7 +73,7 @@ nav_order: 3
     <div class="resume-date">Jan 2026</div>
     <div>
       <h3>SGVR Lab, KAIST</h3>
-      <p class="resume-role">Research Intern</p>
+      <p class="resume-role">Undergraduate Researcher</p>
       <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
         <li>Evaluated Octo-Small vision-language-action policies on SIMPLER under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
@@ -98,7 +98,7 @@ nav_order: 3
     <li>
       <h3><a href="https://arxiv.org/abs/2610.04537">PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</a></h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
-      <p>NeurIPS 2026 Workshop on On-Device Intelligence.</p>
+      <p>ODI@NeurIPS 2026.</p>
     </li>
     <li>
       <h3>Zero-Shot Time-Series Foundation Models for Infrastructure Anomaly Detection</h3>

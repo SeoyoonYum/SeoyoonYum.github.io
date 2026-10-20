@@ -20,6 +20,8 @@
             {{- site.title -}}
           {% endif %}
         </a>
+      {% elsif page.permalink == '/' %}
+        <a class="navbar-brand title font-weight-bold" href="{{ '/' | relative_url }}">{{ site.first_name }} {{ site.last_name }}</a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% social_links %}</div>

@@ -2,15 +2,15 @@
 layout: resume
 title: Experience
 permalink: /experience/
-nav: false
+nav: true
 nav_order: 2
 ---
 
 <div class="resume-entry">
   <div class="resume-date">Sep 2026–Present<span class="resume-status">Current</span></div>
   <div>
-    <h2>SEAL Lab, KAIST</h2>
-    <p class="resume-role">Research Intern</p>
+    <h2 id="seal">SEAL Lab, KAIST</h2>
+    <p class="resume-role">Undergraduate Researcher</p>
     <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
     <ul>
       <li>Researching <strong>quantization and efficient inference for looped transformers</strong>.</li>
@@ -48,7 +48,7 @@ nav_order: 2
   <div class="resume-date">Jan 2026</div>
   <div>
     <h2>SGVR Lab, KAIST</h2>
-    <p class="resume-role">Research Intern</p>
+    <p class="resume-role">Undergraduate Researcher</p>
     <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
     <ul>
       <li>Evaluated the semantic robustness of Octo-Small vision-language-action policies on SIMPLER under <strong>11 meaning-preserving perturbations</strong>.</li>
