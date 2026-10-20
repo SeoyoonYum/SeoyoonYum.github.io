@@ -22,9 +22,8 @@ nav_order: 3
 <section id="education" aria-labelledby="education-heading">
   <h2 id="education-heading">Education</h2>
   <div class="resume-entry">
-    <div class="resume-date">2022–Present</div>
-    <div>
-      <h3>KAIST</h3>
+  <div>
+    <div class="resume-entry-header"><h3>KAIST</h3><div class="resume-date">2022–Present</div></div>
       <p class="resume-role">B.S. in Computer Science</p>
       <p class="resume-meta">Korea Advanced Institute of Science and Technology</p>
       <p>Selected coursework: Machine Learning, Deep Learning, Operating Systems, Computer Architecture, Systems Programming, Algorithms.</p>
@@ -35,9 +34,8 @@ nav_order: 3
 <section id="research" aria-labelledby="research-heading">
   <h2 id="research-heading">Research experience</h2>
   <div class="resume-entry">
-    <div class="resume-date">Sep 2026–Present</div>
-    <div>
-      <h3>SEAL Lab, KAIST</h3>
+  <div>
+    <div class="resume-entry-header"><h3>SEAL Lab, KAIST</h3><div class="resume-date">Sep 2026–Present</div></div>
       <p class="resume-role">Undergraduate Researcher</p>
       <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
       <ul>
@@ -46,9 +44,8 @@ nav_order: 3
     </div>
   </div>
   <div class="resume-entry">
-    <div class="resume-date">Jun 2026–Present</div>
-    <div>
-      <h3>PhaseGate</h3>
+  <div>
+    <div class="resume-entry-header"><h3>PhaseGate</h3><div class="resume-date">Jun 2026–Present</div></div>
       <p class="resume-role">Independent Researcher</p>
       <p class="resume-meta">Self-initiated and led; later advised by Prof. Sehoon Kim, KAIST</p>
       <ul>
@@ -58,9 +55,8 @@ nav_order: 3
     </div>
   </div>
   <div class="resume-entry">
-    <div class="resume-date">Jun–Aug 2026</div>
-    <div>
-      <h3>CHEI Lab, UC San Diego</h3>
+  <div>
+    <div class="resume-entry-header"><h3>CHEI Lab, UC San Diego</h3><div class="resume-date">Jun–Aug 2026</div></div>
       <p class="resume-role">Research Intern</p>
       <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
       <ul>
@@ -70,9 +66,8 @@ nav_order: 3
     </div>
   </div>
   <div class="resume-entry">
-    <div class="resume-date">Jan 2026</div>
-    <div>
-      <h3>SGVR Lab, KAIST</h3>
+  <div>
+    <div class="resume-entry-header"><h3>SGVR Lab, KAIST</h3><div class="resume-date">Jan 2026</div></div>
       <p class="resume-role">Undergraduate Researcher</p>
       <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
@@ -81,9 +76,8 @@ nav_order: 3
     </div>
   </div>
   <div class="resume-entry">
-    <div class="resume-date">August 2023</div>
-    <div>
-      <h3>CJ AI Center</h3>
+  <div>
+    <div class="resume-entry-header"><h3>CJ AI Center</h3><div class="resume-date">August 2023</div></div>
       <p class="resume-role">Research Intern</p>
       <ul>
         <li>Built a real-time EEG-to-robotic-arm brain–computer interface using <strong>PyTorch</strong>.</li>
@@ -114,17 +108,15 @@ nav_order: 3
 <section id="leadership" aria-labelledby="leadership-heading">
   <h2 id="leadership-heading">Leadership</h2>
   <div class="resume-entry">
-    <div class="resume-date">Sep 2025–Present</div>
-    <div>
-      <h3>KAIST American Football Club</h3>
+  <div>
+    <div class="resume-entry-header"><h3>KAIST American Football Club</h3><div class="resume-date">Sep 2025–Present</div></div>
       <p class="resume-role">Captain</p>
       <p>Lead team practices, game strategy, and intra-university competitions.</p>
     </div>
   </div>
   <div class="resume-entry">
-    <div class="resume-date">Jan 2024–Jul 2025</div>
-    <div>
-      <h3>Republic of Korea Army</h3>
+  <div>
+    <div class="resume-entry-header"><h3>Republic of Korea Army</h3><div class="resume-date">Jan 2024–Jul 2025</div></div>
       <p class="resume-role">Squad Leader and English Interpreter</p>
       <p>Led eight soldiers and interpreted between Republic of Korea and U.S. military personnel.</p>
     </div>

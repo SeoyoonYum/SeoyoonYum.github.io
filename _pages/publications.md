@@ -7,7 +7,6 @@ nav_order: 1
 description: Workshop publications and technical reports
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publication-status.css' | relative_url }}">
-<div class="publications">
-{% bibliography %}
+<div class="home-publication-list full-publication-list">
+{% bibliography --group_by none --template home-paper %}
 </div>

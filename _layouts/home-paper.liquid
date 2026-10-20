@@ -2,9 +2,9 @@
 ---
 <div class="home-paper">
   <div>
-    <h3><a href="https://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a></h3>
+    <h3>{% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a>{% elsif entry.html %}<a href="{{ entry.html }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
     <p class="home-paper-authors">{% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if site.scholar.last_name contains author.last and site.scholar.first_name contains author.first %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}</p>
-    <p class="home-paper-venue">{% assign venue_lower = entry.abbr | downcase %}{% if venue_lower contains 'neurips' %}<strong>{{ entry.abbr }}</strong>{% else %}{{ entry.abbr }}{% endif %}</p>
+    <p class="home-paper-venue">{% assign venue_lower = entry.abbr | downcase %}{% if venue_lower contains 'neurips' %}<strong>{{ entry.abbr }}</strong>{% else %}{{ entry.abbr }} · {{ entry.year }}{% endif %}</p>
     {% if entry.key == 'yum2026phasegate' %}
       <p class="home-paper-summary">Phase-aware CPU retrieval scheduling for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> compared with the best tested latency-feasible fixed policy under the same LLM latency limits on the base-M4 Mac mini.</p>
     {% endif %}
@@ -17,6 +17,7 @@
         {% endif %}
       {% endif %}
       {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
       {% if entry.code %}<a href="{{ entry.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
       {% if entry.key == 'yum2026phasegate' %}<a href="{{ '/research/phasegate/' | relative_url }}">Overview <span aria-hidden="true">→</span></a>{% endif %}
     </div>

@@ -1,6 +1,6 @@
 .academic-resume {
   line-height: 1.7;
-  --resume-muted: color-mix(in srgb, var(--global-text-color) 72%, var(--global-bg-color));
+  --resume-muted: var(--home-muted); color: var(--home-body);
 }
 .academic-resume .resume-toolbar {
   display: flex;
@@ -28,7 +28,7 @@
   gap: .35rem 1.25rem;
   padding-bottom: 1rem;
   margin-bottom: 1.75rem;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--home-rule);
   font-size: .9rem;
 }
 .academic-resume section { scroll-margin-top: 6rem; }
@@ -38,7 +38,7 @@
   font-weight: 600;
   margin: 0 0 1rem;
   padding-bottom: .6rem;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--home-rule);
 }
 .academic-resume .resume-entry {
   display: grid;
@@ -46,7 +46,7 @@
   gap: .5rem 1.75rem;
   padding: 1.25rem 0;
 }
-.academic-resume .resume-entry + .resume-entry { border-top: 1px solid var(--global-divider-color); }
+.academic-resume .resume-entry + .resume-entry { border-top: 1px solid var(--home-rule); }
 .academic-resume section > .resume-entry:first-of-type { padding-top: .25rem; }
 .academic-resume .resume-date,
 .academic-resume .resume-meta { color: var(--resume-muted); font-size: .9rem; }
@@ -79,4 +79,29 @@
   .academic-resume .resume-status { display: inline; margin-left: .5rem; }
   .academic-resume .resume-skills { grid-template-columns: minmax(0, 1fr); gap: .2rem; }
   .academic-resume .resume-skills dd { margin-bottom: .8rem; }
+}
+
+/* Match the homepage: institution first, quiet metadata, one clear group per entry. */
+.academic-resume .resume-entry { display: block; padding: 1.7rem 0; }
+.academic-resume > .resume-entry:first-child { padding-top: 0; }
+.academic-resume .resume-entry-header { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
+.academic-resume .resume-entry-header h2, .academic-resume .resume-entry-header h3 { color: var(--home-heading); font-size: 1.2rem; line-height: 1.5; font-weight: 600; margin: 0; }
+.academic-resume .resume-date { flex-shrink: 0; padding: 0; font-size: .87rem; }
+.academic-resume .resume-status { display: inline; font-weight: 400; margin-left: .5rem; }
+.academic-resume .resume-role { margin: .3rem 0 0; color: var(--home-muted); font-size: .9rem; font-weight: 400; }
+.academic-resume .resume-meta { margin-top: .15rem; }
+.academic-resume .resume-entry li, .academic-resume .resume-entry li strong { color: var(--home-body); font-weight: 400; }
+.academic-resume ul { line-height: 1.8; margin-top: .75rem; }
+.academic-resume section > h2 { color: var(--home-heading); font-family: Georgia, "Times New Roman", serif; font-size: 1.95rem; line-height: 1.3; font-weight: 400; letter-spacing: -.025em; padding: 0; border: 0; margin-bottom: 1.9rem; }
+.academic-resume section + section { margin-top: 3rem; padding-top: 2.4rem; border-top: 1px solid var(--home-rule); }
+.academic-resume .resume-works { list-style: none; padding: 0; }
+.academic-resume .resume-works li { padding: 0; margin-bottom: 1.8rem; }
+.academic-resume .resume-works h3 { font-size: 1.2rem; line-height: 1.5; }
+.academic-resume .resume-works h3 a { color: var(--home-heading); }
+@media (max-width: 640px) {
+  .academic-resume .resume-entry-header { display: block; }
+  .academic-resume .resume-date { margin-top: .25rem; }
+  .academic-resume .resume-entry { padding: 1.5rem 0; }
+  .academic-resume section > h2 { font-size: 1.7rem; margin-bottom: 1.5rem; }
+  .academic-resume section + section { margin-top: 2rem; padding-top: 1.8rem; }
 }
