@@ -81,7 +81,7 @@ nav_order: 3
     </div>
   </div>
   <div class="resume-entry">
-    <div class="resume-date">Summer 2023</div>
+    <div class="resume-date">August 2023</div>
     <div>
       <h3>CJ AI Center</h3>
       <p class="resume-role">Research Intern</p>
