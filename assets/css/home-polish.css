@@ -29,14 +29,15 @@
 .about-page .home-paper-links { display: flex; flex-wrap: wrap; gap: .25rem 1.2rem; }
 .about-page .home-paper-links a { display: inline-flex; align-items: center; gap: .25rem; min-height: 36px; font-size: .94rem; }
 .about-page .home-all-work { margin: 1rem 0 0; font-size: .88rem; }
-.about-page .home-experience-list { list-style: none; padding: 0; margin: 0; }
-.about-page .home-experience-entry { margin: 0 0 2.4rem; }
+.about-page .home-experience-list { list-style: none; padding: 0; margin: 0 0 .6rem; }
+.about-page .home-experience-entry { margin: 0; padding: 1.7rem 0; }
+.about-page .home-experience-entry:first-child { padding-top: 0; }
+.about-page .home-experience-entry + .home-experience-entry { border-top: 1px solid var(--home-rule); }
 .about-page .home-experience-header { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
 .about-page .home-experience-header h3 { margin: 0; }
 .about-page .home-experience-date { flex-shrink: 0; margin: 0; font-size: .87rem; color: var(--home-muted); font-variant-numeric: tabular-nums; }
-.about-page .home-experience-role { margin: .4rem 0 .85rem; color: var(--home-muted); font-size: .9rem; line-height: 1.6; }
-.about-page .home-experience-summary { margin: 0; color: var(--home-body); font-size: .98rem; line-height: 1.8; }
-.about-page .home-experience-summary strong { color: #34485f; font-weight: 600; }
+.about-page .home-experience-role { margin: .3rem 0 .6rem; color: var(--home-muted); font-size: .9rem; line-height: 1.6; }
+.about-page .home-experience-summary { margin: 0; color: var(--home-body); font-size: .98rem; font-weight: 400; line-height: 1.8; }
 .about-page .experience-link { font-size: .94rem; }
 .about-page a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 #seal, #publications-heading { scroll-margin-top: 6rem; }
@@ -61,6 +62,6 @@
   .about-page section h2 { font-size: 1.7rem; margin-bottom: 1.5rem; }
   .about-page .home-experience-header { display: block; }
   .about-page .home-experience-date { margin-top: .25rem; }
-  .about-page .home-experience-entry { margin-bottom: 1.7rem; }
+  .about-page .home-experience-entry { padding: 1.5rem 0; }
   .about-page .home-paper-links a { min-height: 44px; }
 }

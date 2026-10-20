@@ -9,7 +9,7 @@
           <p class="home-experience-date">{{ entry.period | escape }}</p>
         </div>
         <p class="home-experience-role">{{ entry.role | escape }}{% if entry.advisor %} · {{ entry.advisor | escape }}{% endif %}</p>
-        <p class="home-experience-summary">{% if entry.topic %}<strong>{{ entry.topic | escape }}</strong> — {% endif %}{{ entry.summary | escape }}</p>
+        <p class="home-experience-summary">{% if entry.topic %}{{ entry.topic | escape }} — {% endif %}{{ entry.summary | escape }}</p>
       </li>
       {% endunless %}
     {% endfor %}
