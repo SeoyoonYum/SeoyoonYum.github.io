@@ -4,7 +4,7 @@
   <div>
     <h3><a href="https://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a></h3>
     <p class="home-paper-authors">{% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if site.scholar.last_name contains author.last and site.scholar.first_name contains author.first %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}</p>
-    <p class="home-paper-venue">{% if entry.abbr contains 'NeurIPS' %}<strong>{{ entry.abbr }}</strong>{% else %}{{ entry.abbr }}{% endif %}</p>
+    <p class="home-paper-venue">{% assign venue_lower = entry.abbr | downcase %}{% if venue_lower contains 'neurips' %}<strong>{{ entry.abbr }}</strong>{% else %}{{ entry.abbr }}{% endif %}</p>
     {% if entry.key == 'yum2026phasegate' %}
       <p class="home-paper-summary">Phase-aware CPU retrieval scheduling for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> compared with the best tested latency-feasible fixed policy under the same LLM latency limits on the base-M4 Mac mini.</p>
     {% endif %}
