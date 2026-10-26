@@ -8,13 +8,13 @@
   role: Research Project
   period: Jun 2026–Present
   home: false
-  summary: Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Phase-aware CPU retrieval scheduling for on-device LLMs, achieving 2.0× throughput under the same latency constraint.
+  summary: Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Phase-aware CPU retrieval scheduling for on-device LLMs, achieving 2.0× throughput under the same latency constraint. Paper accepted to the NeurIPS 2026 ODI Workshop.
 - organization: University of California, San Diego
   role: Research Intern, CHEI Lab
   advisor: Prof. Falko Kuester
   period: Jun–Aug 2026
   topic: Infrastructure Anomaly Detection
-  summary: Evaluated zero-shot time-series models on production Ceph and DigitalPath telemetry, identifying limitations of forecast residuals for genuine failure prediction.
+  summary: Evaluated zero-shot anomaly detection with a time-series foundation model on real-world operational data, identifying limitations of forecast residuals for genuine failure prediction.
 - organization: KAIST · SGVR Lab
   role: Undergraduate Researcher
   advisor: Prof. Sung-Eui Yoon

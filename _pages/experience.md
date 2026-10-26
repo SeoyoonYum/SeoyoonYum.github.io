@@ -27,6 +27,7 @@ nav_order: 3
     <ul>
       <li>Built a phase-aware CPU retrieval scheduler for on-device LLMs, achieving <strong>2.0× throughput</strong> relative to the best feasible fixed policy under the same latency constraint.</li>
       <li>Measured asymmetric CPU–GPU memory contention across two Apple M4 systems: four concurrent HNSW searches increased p95 decode latency by <strong>60–61%</strong>, versus <strong>5.7–6.9%</strong> for prefill.</li>
+      <li>Paper accepted to the <strong>NeurIPS 2026 ODI Workshop</strong>.</li>
     </ul>
   </div>
 </div>
@@ -37,7 +38,7 @@ nav_order: 3
     <p class="resume-role">Research Intern</p>
     <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
     <ul>
-      <li>Evaluated a <strong>time-series foundation model</strong> for zero-shot anomaly detection on production Ceph and DigitalPath telemetry.</li>
+      <li>Evaluated a <strong>time-series foundation model</strong> for zero-shot anomaly detection on real-world operational data.</li>
       <li>Evaluated proxy anomalies and alert-volume tradeoffs; found that forecast residuals did <strong>not reliably predict genuine failures</strong>.</li>
     </ul>
   </div>
