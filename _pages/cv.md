@@ -45,8 +45,8 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>PhaseGate — Research Project</h3><div class="resume-date">Jun 2026–Present</div></div>
-      <p class="resume-meta">Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST).</p>
+    <div class="resume-entry-header"><h3>PhaseGate — Self-Initiated Research Project</h3><div class="resume-date">Jun. 2026 – Sep. 2026</div></div>
+      <p class="resume-meta">Independently initiated; subsequently collaborated with Prof. Sehoon Kim (KAIST).</p>
       <ul>
         <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
         <li>Paper accepted to the <strong>NeurIPS 2026 ODI Workshop</strong>.</li>
