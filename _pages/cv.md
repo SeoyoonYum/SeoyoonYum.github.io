@@ -93,7 +93,7 @@ nav_order: 4
     <li>
       <h3><a href="https://arxiv.org/abs/2610.04537">PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</a></h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
-      <p>NeurIps 2026 ODI Workshop.</p>
+      <p>NeurIPS 2026 ODI Workshop.</p>
     </li>
   </ol>
 </section>
