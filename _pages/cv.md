@@ -50,8 +50,7 @@ nav_order: 4
       <p class="resume-role">Research Project</p>
       <p class="resume-meta">Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST).</p>
       <ul>
-        <li>Built a phase-aware CPU retrieval scheduler for on-device LLMs: <strong>2.0× throughput</strong> versus the best feasible fixed policy under the same latency constraint.</li>
-        <li>Characterized CPU–GPU memory contention across two Apple M4 systems: four concurrent HNSW searches increased p95 decode latency by <strong>60–61%</strong>, versus <strong>5.7–6.9%</strong> for prefill.</li>
+        <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
         <li>Paper accepted to the <strong>NeurIPS 2026 ODI Workshop</strong>.</li>
       </ul>
     </div>

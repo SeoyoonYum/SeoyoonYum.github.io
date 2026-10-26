@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PhaseGate
-description: Research Project · Phase-aware CPU retrieval scheduling for on-device LLMs on unified memory
+description: Research Project · Resource scheduling for efficient on-device LLMs
 permalink: /research/phasegate/
 nav: false
 ---
@@ -12,19 +12,17 @@ nav: false
 
 ### Problem
 
-CPU retrieval and GPU inference compete for shared memory bandwidth. Four concurrent HNSW searches increased p95 decode latency by **60–61%** on two Apple M4 systems, while prefill latency increased by **5.7–6.9%**. These measurements describe the contention problem.
+Retrieval and LLM inference compete for shared resources, making it difficult to improve throughput while keeping response latency low.
 
 ### Contribution
 
-Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Built a phase-aware CPU retrieval scheduler. PhaseGate admits more retrieval during prefill and reduces concurrency during decode. The limits are calibrated for each device and workload.
+Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Built a resource scheduler that adapts retrieval activity to the demands of LLM inference.
 
-<img src="{{ '/assets/img/publication_preview/phasegate-overview.png' | relative_url }}" alt="PhaseGate system overview: CPU retrieval and GPU inference share unified memory, with retrieval admission controlled by the LLM phase." style="display: block; max-width: 100%; height: auto;" loading="lazy">
+<img src="{{ '/assets/img/publication_preview/phasegate-overview.png' | relative_url }}" alt="PhaseGate system overview: resource scheduling coordinates retrieval with LLM inference." style="display: block; max-width: 100%; height: auto;" loading="lazy">
 
 ### Result
 
-On the base-M4 Mac mini, PhaseGate achieved **2.0× aggregate retrieval throughput** compared with the best tested feasible fixed policy. Both p95 LLM latency metrics stayed within **1.25× their no-retrieval baselines** in all seven held-out runs.
-
-This is retrieval throughput under a backlogged queue and controlled LLM workloads. The benefit varies with device, workload, and the relative time spent in prefill and decode.
+In controlled experiments, PhaseGate achieved **2.0× retrieval throughput** over a fixed scheduling baseline under the same latency constraint.
 
 [Full experimental details and reproduction notes →](https://github.com/SeoyoonYum/PhaseGate)
 
