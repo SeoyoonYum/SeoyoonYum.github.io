@@ -3,7 +3,7 @@ layout: resume
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="resume-toolbar">
@@ -39,7 +39,8 @@ nav_order: 3
       <p class="resume-role">Undergraduate Researcher</p>
       <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
       <ul>
-        <li>Researching <strong>quantization and efficient inference for looped transformers</strong>.</li>
+        <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
+        <li>Optimizing inference kernels to improve inference speedups.</li>
       </ul>
     </div>
   </div>
@@ -93,14 +94,6 @@ nav_order: 3
       <h3><a href="https://arxiv.org/abs/2610.04537">PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</a></h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
       <p>NeurIps 2026 ODI Workshop.</p>
-    </li>
-    <li>
-      <h3>Zero-Shot Time-Series Foundation Models for Infrastructure Anomaly Detection</h3>
-      <p class="resume-meta">S. Yum · Technical report, 2026</p>
-    </li>
-    <li>
-      <h3>Stress-Testing Semantic Robustness in Vision-Language-Action Policies</h3>
-      <p class="resume-meta">S. Yum · Technical report, 2026 · <a href="https://doi.org/10.5281/zenodo.20777663">DOI</a></p>
     </li>
   </ol>
 </section>

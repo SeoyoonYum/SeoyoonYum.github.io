@@ -1,7 +1,7 @@
 # Seoyoon Yum — al-folio website
 
 Built with the actual al-folio 1.x starter and its pinned runtime gems.
-The homepage presents a short research introduction, selected publications with contribution summaries, and four research experience entries. The profile photograph is in `assets/img/profile.jpg`.
+The homepage presents a short research introduction, separate Publications and Technical Report sections, and four research experience entries. The profile photograph is in `assets/img/profile.jpg`.
 
 ## Preview locally
 
@@ -20,7 +20,8 @@ Open http://127.0.0.1:4174/.
 - Homepage structure: `_layouts/about.liquid`
 - Homepage research experience: `_data/home_experience.yml` and `_includes/home_experience.liquid` (`home: false` hides an entry already covered in Publications)
 - PhaseGate overview: `_pages/phasegate.md`
-- Publications: `_bibliography/papers.bib` (entries with `selected={true}` appear in the homepage publication list)
+- Publications and technical reports: `_bibliography/papers.bib` (`@inproceedings` entries appear under Publications; `@techreport` entries appear under Technical Report)
+- Publication pages: `_pages/publications.md` and `_pages/technical-reports.md`
 - Compact publication layout: `_layouts/home-paper.liquid`
 - Homepage styling: `assets/css/home-polish.css`
 - Experience: `_pages/experience.md`

@@ -2,8 +2,8 @@
   role: Undergraduate Researcher
   advisor: Prof. Sehoon Kim
   period: Sep 2026–Present
-  topic: Quantization for Looped Transformers
-  summary: Investigating quantization sensitivity and efficient low-precision inference for looped transformers.
+  topic: NVFP4 W4A4 Quantization for Looped Transformers
+  summary: Researching quantization performance in looped transformer models and optimizing inference kernels to improve speedups.
 - organization: PhaseGate
   role: Independent Researcher
   period: Jun 2026–Present

@@ -4,7 +4,7 @@ title: Experience
 display_title: Research Experience
 permalink: /experience/
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <div class="resume-entry">
@@ -13,7 +13,8 @@ nav_order: 2
     <p class="resume-role">Undergraduate Researcher</p>
     <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
     <ul>
-      <li>Researching <strong>quantization and efficient inference for looped transformers</strong>.</li>
+      <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
+      <li>Optimizing inference kernels to improve inference speedups.</li>
     </ul>
   </div>
 </div>
