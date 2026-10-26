@@ -3,13 +3,13 @@
   <ol class="home-experience-list">
     {% for entry in site.data.home_experience %}
       {% unless entry.home == false %}
-      <li class="home-experience-entry">
-        <div class="home-experience-header">
+      <li class="home-experience-entry{% if entry.period contains 'Present' %} home-experience-current{% endif %}">
+        <p class="home-experience-date">{{ entry.period | escape }}</p>
+        <div class="home-experience-content">
           <h3>{{ entry.organization | escape }}</h3>
-          <p class="home-experience-date">{{ entry.period | escape }}</p>
+          <p class="home-experience-role">{{ entry.role | escape }}{% if entry.advisor %} · {{ entry.advisor | escape }}{% endif %}</p>
+          <p class="home-experience-summary">{% if entry.topic %}<span class="home-experience-topic">{{ entry.topic | escape }}</span> — {% endif %}{{ entry.summary | escape }}</p>
         </div>
-        <p class="home-experience-role">{{ entry.role | escape }}{% if entry.advisor %} · {{ entry.advisor | escape }}{% endif %}</p>
-        <p class="home-experience-summary">{% if entry.topic %}{{ entry.topic | escape }} — {% endif %}{{ entry.summary | escape }}</p>
       </li>
       {% endunless %}
     {% endfor %}

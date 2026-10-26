@@ -27,7 +27,7 @@ layout: academic
   <section class="home-publications" aria-labelledby="publications-heading">
     <h2 id="publications-heading">Publications</h2>
     <div class="home-publication-list">
-      {% bibliography --group_by none --query @inproceedings --template home-paper %}
+      {% bibliography --group_by none --query @inproceedings --template home-work %}
     </div>
     <p class="home-all-work"><a href="{{ '/publications/' | relative_url }}">View publications <span aria-hidden="true">→</span></a></p>
   </section>
@@ -35,7 +35,7 @@ layout: academic
   <section class="home-technical-reports" aria-labelledby="technical-reports-heading">
     <h2 id="technical-reports-heading">Technical Report</h2>
     <div class="home-publication-list">
-      {% bibliography --group_by none --query @techreport --template home-paper %}
+      {% bibliography --group_by none --query @techreport --template home-work %}
     </div>
     <p class="home-all-work"><a href="{{ '/technical-reports/' | relative_url }}">View technical reports <span aria-hidden="true">→</span></a></p>
   </section>

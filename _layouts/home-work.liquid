@@ -1,0 +1,28 @@
+---
+---
+{% assign is_report = false %}
+{% if entry.abbr == 'Technical Report' %}{% assign is_report = true %}{% endif %}
+<article class="home-work {% if is_report %}home-report{% else %}home-featured{% endif %}">
+  {% if is_report %}<p class="home-work-year">{{ entry.year }}</p>{% endif %}
+  <div class="home-work-content">
+    {% unless is_report %}<p class="home-work-badge">{{ entry.abbr }}</p>{% endunless %}
+    <h3 class="home-work-title">{% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a>{% elsif entry.html %}<a href="{{ entry.html }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
+    <div class="home-work-meta">
+      <p class="home-work-authors">{% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if site.scholar.last_name contains author.last and site.scholar.first_name contains author.first %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}</p>
+      {% if is_report %}<p class="home-work-type">{{ entry.abbr }}</p>{% endif %}
+    </div>
+    <div class="home-work-links">
+      {% if entry.pdf %}
+        {% if entry.pdf contains '://' %}
+          <a class="home-work-link home-work-link-paper" href="{{ entry.pdf }}">Paper <span aria-hidden="true">↗</span></a>
+        {% else %}
+          <a class="home-work-link home-work-link-paper" href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">Paper <span aria-hidden="true">↗</span></a>
+        {% endif %}
+      {% endif %}
+      {% if entry.code %}<a class="home-work-link home-work-link-code" href="{{ entry.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if entry.arxiv %}<a class="home-work-link" href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if entry.doi %}<a class="home-work-link" href="https://doi.org/{{ entry.doi }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if entry.key == 'yum2026phasegate' %}<a class="home-work-link" href="{{ '/research/phasegate/' | relative_url }}">Overview <span aria-hidden="true">→</span></a>{% endif %}
+    </div>
+  </div>
+</article>

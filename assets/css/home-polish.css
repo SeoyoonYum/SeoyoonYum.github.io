@@ -28,16 +28,45 @@
 .academic-page .home-paper-summary strong { color: var(--home-heading); font-weight: 700; }
 .academic-page .home-paper-links { display: flex; flex-wrap: wrap; gap: .25rem 1.2rem; }
 .academic-page .home-paper-links a { display: inline-flex; align-items: center; gap: .25rem; min-height: 36px; font-size: .94rem; }
-.about-page .home-all-work { margin: 1rem 0 0; font-size: .88rem; }
+.about-page .home-all-work { margin: 1.25rem 0 0; font-size: .88rem; }
+
+/* Main-page work: one featured publication and a quieter report list. */
+.about-page .home-work-content { min-width: 0; }
+.about-page .home-featured { padding: 1.8rem 2rem; border: 1px solid #d7e1ee; border-radius: 12px; background: #f7f9fc; }
+.about-page .home-work-badge { display: inline-block; max-width: 100%; margin: 0 0 1rem; padding: .3rem .65rem; border: 1px solid #d9e4f5; border-radius: 6px; background: #eaf0f9; color: #244d83; font-size: .8rem; font-weight: 600; line-height: 1.5; }
+.about-page .home-work-title { margin: 0 0 .65rem; font-size: 1.15rem; font-weight: 600; line-height: 1.5; }
+.about-page .home-featured .home-work-title { max-width: 45rem; font-size: 1.35rem; line-height: 1.45; letter-spacing: -.015em; }
+.about-page .home-work-title a:hover { text-decoration-thickness: 1px; text-underline-offset: .18em; }
+.about-page .home-work-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: .2rem .7rem; color: var(--home-muted); font-size: .88rem; line-height: 1.6; }
+.about-page .home-work-authors, .about-page .home-work-type { margin: 0; color: var(--home-muted); }
+.about-page .home-work-authors strong { color: inherit; font-weight: 500; }
+.about-page .home-work-type { padding-left: .7rem; border-left: 1px solid #cdd3db; }
+.about-page .home-work-links { display: flex; align-items: center; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .8rem; }
+.about-page .home-work-link { display: inline-flex; align-items: center; justify-content: center; gap: .35rem; min-height: 36px; color: #315b93; font-size: .88rem; line-height: 1.4; }
+.about-page .home-featured .home-work-links { gap: .5rem 1.2rem; margin-top: 1.3rem; }
+.about-page .home-featured .home-work-link-paper, .about-page .home-featured .home-work-link-code { padding: .45rem .85rem; border: 1px solid #cbd6e4; border-radius: 6px; font-weight: 500; text-decoration: none; }
+.about-page .home-featured .home-work-link-paper { border-color: #2455a4; background: #2455a4; color: #fff; }
+.about-page .home-featured .home-work-link-paper:hover { border-color: #1a407e; background: #1a407e; }
+.about-page .home-featured .home-work-link-code { margin-left: -.7rem; background: #fff; }
+.about-page .home-featured .home-work-link-code:hover { border-color: #9eb4d2; background: #edf2f9; }
+.about-page .home-technical-reports .bibliography > li { padding: 1.5rem 0; border-bottom: 1px solid var(--home-rule); }
+.about-page .home-technical-reports .bibliography > li:first-child { padding-top: 0; }
+.about-page .home-technical-reports .bibliography > li + li { margin-top: 0; }
+.about-page .home-report { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1.5rem; align-items: start; }
+.about-page .home-work-year { margin: .2rem 0 0; color: var(--home-muted); font-size: .88rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
+
+/* Research dates share a fixed column, with the current appointment accented. */
 .about-page .home-experience-list { list-style: none; padding: 0; margin: 0 0 .6rem; }
-.about-page .home-experience-entry { margin: 0; padding: 1.7rem 0; }
+.about-page .home-experience-entry { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 1.5rem; align-items: baseline; margin: 0; padding: 1.7rem 0; }
 .about-page .home-experience-entry:first-child { padding-top: 0; }
 .about-page .home-experience-entry + .home-experience-entry { border-top: 1px solid var(--home-rule); }
-.about-page .home-experience-header { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; }
-.about-page .home-experience-header h3 { margin: 0; }
-.about-page .home-experience-date { flex-shrink: 0; margin: 0; font-size: .87rem; color: var(--home-muted); font-variant-numeric: tabular-nums; }
+.about-page .home-experience-content { min-width: 0; }
+.about-page .home-experience-content h3 { margin: 0; font-size: 1.12rem; }
+.about-page .home-experience-date { margin: 0; font-size: .84rem; line-height: 1.6; color: var(--home-muted); font-variant-numeric: tabular-nums; }
+.about-page .home-experience-current .home-experience-date, .about-page .home-experience-current h3 { color: #2455a4; }
 .about-page .home-experience-role { margin: .3rem 0 .6rem; color: var(--home-muted); font-size: .9rem; line-height: 1.6; }
-.about-page .home-experience-summary { margin: 0; color: var(--home-body); font-size: .98rem; font-weight: 400; line-height: 1.8; }
+.about-page .home-experience-summary { margin: 0; color: var(--home-body); font-size: .95rem; font-weight: 400; line-height: 1.75; }
+.about-page .home-experience-topic { color: var(--home-heading); font-weight: 500; }
 .about-page .experience-link { font-size: .94rem; }
 .academic-page a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 #seal, #publications-heading { scroll-margin-top: 6rem; }
@@ -45,7 +74,7 @@
   .about-page .home-intro { grid-template-columns: minmax(0, 1fr) 140px; gap: 1.5rem; }
   .about-page .home-portrait img { width: 140px; height: 140px; }
   .about-page .post-title { font-size: 2.4rem; }
-  .about-page .home-experience-header { flex-wrap: wrap; gap: .2rem; }
+  .about-page .home-experience-entry { grid-template-columns: 8.5rem minmax(0, 1fr); gap: 1rem; }
 }
 @media (max-width: 575px) {
   .about-page .home-intro { position: relative; display: block; padding-top: 0; }
@@ -60,9 +89,20 @@
   .about-page .home-links { gap: .35rem .6rem; margin-top: 1rem; font-size: .95rem; }
   .about-page section { margin-top: 2rem; padding-top: 1.8rem; }
   .about-page section h2 { font-size: 1.7rem; margin-bottom: 1.5rem; }
-  .about-page .home-experience-header { display: block; }
-  .about-page .home-experience-date { margin-top: .25rem; }
-  .about-page .home-experience-entry { padding: 1.5rem 0; }
+  .about-page .home-featured { padding: 1.35rem 1.2rem; border-radius: 10px; }
+  .about-page .home-featured .home-work-title { font-size: 1.17rem; line-height: 1.5; }
+  .about-page .home-featured .home-work-links { display: grid; grid-template-columns: max-content max-content; gap: .35rem .5rem; }
+  .about-page .home-featured .home-work-link-code { margin-left: 0; }
+  .about-page .home-featured .home-work-link:not(.home-work-link-paper):not(.home-work-link-code) { justify-content: flex-start; }
+  .about-page .home-work-badge { font-size: .76rem; }
+  .about-page .home-work-title { font-size: 1.06rem; }
+  .about-page .home-report { grid-template-columns: 1fr; gap: .5rem; }
+  .about-page .home-work-year { margin: 0; font-size: .8rem; }
+  .about-page .home-work-links { column-gap: 1.2rem; margin-top: .6rem; }
+  .about-page .home-work-link { min-height: 44px; }
+  .about-page .home-experience-entry { grid-template-columns: 1fr; gap: .5rem; padding: 1.5rem 0; }
+  .about-page .home-experience-date { font-size: .8rem; }
+  .about-page .home-experience-content h3 { font-size: 1.08rem; }
   .academic-page .home-paper-links a { min-height: 44px; }
 }
 
