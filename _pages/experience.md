@@ -49,7 +49,7 @@ nav_order: 3
     <p class="resume-role">Undergraduate Researcher</p>
     <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
     <ul>
-      <li>Evaluated the semantic robustness of Octo-Small vision-language-action policies on SIMPLER under <strong>11 meaning-preserving perturbations</strong>.</li>
+      <li>Evaluated the semantic robustness of vision-language-action (VLA) policies in simulation under <strong>11 meaning-preserving perturbations</strong>.</li>
       <li>Average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
     </ul>
   </div>

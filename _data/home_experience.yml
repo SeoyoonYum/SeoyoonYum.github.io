@@ -20,7 +20,7 @@
   advisor: Prof. Sung-Eui Yoon
   period: Jan 2026
   topic: Vision-Language-Action Models
-  summary: Evaluated the semantic robustness of Octo-Small policies under meaning-preserving instruction changes; average success fell from 60% to 25%.
+  summary: Evaluated the semantic robustness of vision-language-action (VLA) policies in simulation under meaning-preserving instruction changes; average success fell from 60% to 25%.
 - organization: CJ AI Center
   role: Research Intern
   period: August 2023

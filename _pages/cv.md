@@ -72,7 +72,7 @@ nav_order: 4
       <p class="resume-role">Undergraduate Researcher</p>
       <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
-        <li>Evaluated Octo-Small vision-language-action policies on SIMPLER under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
+        <li>Evaluated vision-language-action (VLA) policies in simulation under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
       </ul>
     </div>
   </div>
