@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PhaseGate
-description: Phase-aware CPU retrieval scheduling for on-device LLMs on unified memory
+description: Research Project · Phase-aware CPU retrieval scheduling for on-device LLMs on unified memory
 permalink: /research/phasegate/
 nav: false
 ---
@@ -16,7 +16,7 @@ CPU retrieval and GPU inference compete for shared memory bandwidth. Four concur
 
 ### Contribution
 
-I initiated and led this research, building a phase-aware CPU retrieval scheduler, with later advising from Prof. Sehoon Kim. PhaseGate admits more retrieval during prefill and reduces concurrency during decode. The limits are calibrated for each device and workload.
+Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Built a phase-aware CPU retrieval scheduler. PhaseGate admits more retrieval during prefill and reduces concurrency during decode. The limits are calibrated for each device and workload.
 
 <img src="{{ '/assets/img/publication_preview/phasegate-overview.png' | relative_url }}" alt="PhaseGate system overview: CPU retrieval and GPU inference share unified memory, with retrieval admission controlled by the LLM phase." style="display: block; max-width: 100%; height: auto;" loading="lazy">
 

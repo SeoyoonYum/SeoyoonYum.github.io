@@ -47,8 +47,8 @@ nav_order: 4
   <div class="resume-entry">
   <div>
     <div class="resume-entry-header"><h3>PhaseGate</h3><div class="resume-date">Jun 2026–Present</div></div>
-      <p class="resume-role">Independent Researcher</p>
-      <p class="resume-meta">Self-initiated and led; later advised by Prof. Sehoon Kim, KAIST</p>
+      <p class="resume-role">Research Project</p>
+      <p class="resume-meta">Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST).</p>
       <ul>
         <li>Built a phase-aware CPU retrieval scheduler for on-device LLMs: <strong>2.0× throughput</strong> versus the best feasible fixed policy under the same latency constraint.</li>
         <li>Characterized CPU–GPU memory contention across two Apple M4 systems: four concurrent HNSW searches increased p95 decode latency by <strong>60–61%</strong>, versus <strong>5.7–6.9%</strong> for prefill.</li>
@@ -119,8 +119,9 @@ nav_order: 4
 <section id="skills" aria-labelledby="skills-heading">
   <h2 id="skills-heading">Technical skills</h2>
   <dl class="resume-skills">
-    <dt>Code and tools</dt><dd>Python, C, Bash, Git, Linux</dd>
-    <dt>ML and systems</dt><dd>PyTorch, MLX/MLX-LM, FAISS/HNSW, Prometheus, Grafana, Ceph</dd>
+    <dt>Programming</dt><dd>Python, C</dd>
+    <dt>ML systems</dt><dd>PyTorch, LLM inference, low-precision quantization, GPU kernel optimization, performance profiling</dd>
+    <dt>Tools</dt><dd>Linux, Git, Bash</dd>
     <dt>Languages</dt><dd>Korean (native), English (professional; TOEFL 110)</dd>
   </dl>
 </section>

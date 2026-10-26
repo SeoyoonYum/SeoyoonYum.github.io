@@ -5,10 +5,10 @@
   topic: NVFP4 W4A4 Quantization for Looped Transformers
   summary: Researching quantization performance in looped transformer models and optimizing inference kernels to improve speedups.
 - organization: PhaseGate
-  role: Independent Researcher
+  role: Research Project
   period: Jun 2026–Present
   home: false
-  summary: Phase-aware CPU retrieval scheduling for on-device LLMs, achieving 2.0× throughput under the same latency constraint.
+  summary: Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Phase-aware CPU retrieval scheduling for on-device LLMs, achieving 2.0× throughput under the same latency constraint.
 - organization: University of California, San Diego
   role: Research Intern, CHEI Lab
   advisor: Prof. Falko Kuester
