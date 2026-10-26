@@ -30,30 +30,30 @@
 .academic-page .home-paper-links a { display: inline-flex; align-items: center; gap: .25rem; min-height: 36px; font-size: .94rem; }
 .about-page .home-all-work { margin: 1.25rem 0 0; font-size: .88rem; }
 
-/* Main-page work: one featured publication and a quieter report list. */
-.about-page .home-work-content { min-width: 0; }
-.about-page .home-featured { padding: 1.8rem 2rem; border: 1px solid #d7e1ee; border-radius: 12px; background: #f7f9fc; }
-.about-page .home-work-badge { display: inline-block; max-width: 100%; margin: 0 0 1rem; padding: .3rem .65rem; border: 1px solid #d9e4f5; border-radius: 6px; background: #eaf0f9; color: #244d83; font-size: .8rem; font-weight: 600; line-height: 1.5; }
-.about-page .home-work-title { margin: 0 0 .65rem; font-size: 1.15rem; font-weight: 600; line-height: 1.5; }
-.about-page .home-featured .home-work-title { max-width: 45rem; font-size: 1.35rem; line-height: 1.45; letter-spacing: -.015em; }
-.about-page .home-work-title a:hover { text-decoration-thickness: 1px; text-underline-offset: .18em; }
-.about-page .home-work-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: .2rem .7rem; color: var(--home-muted); font-size: .88rem; line-height: 1.6; }
-.about-page .home-work-authors, .about-page .home-work-type { margin: 0; color: var(--home-muted); }
-.about-page .home-work-authors strong { color: inherit; font-weight: 500; }
-.about-page .home-work-type { padding-left: .7rem; border-left: 1px solid #cdd3db; }
-.about-page .home-work-links { display: flex; align-items: center; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .8rem; }
-.about-page .home-work-link { display: inline-flex; align-items: center; justify-content: center; gap: .35rem; min-height: 36px; color: #315b93; font-size: .88rem; line-height: 1.4; }
-.about-page .home-featured .home-work-links { gap: .5rem 1.2rem; margin-top: 1.3rem; }
-.about-page .home-featured .home-work-link-paper, .about-page .home-featured .home-work-link-code { padding: .45rem .85rem; border: 1px solid #cbd6e4; border-radius: 6px; font-weight: 500; text-decoration: none; }
-.about-page .home-featured .home-work-link-paper { border-color: #2455a4; background: #2455a4; color: #fff; }
-.about-page .home-featured .home-work-link-paper:hover { border-color: #1a407e; background: #1a407e; }
-.about-page .home-featured .home-work-link-code { margin-left: -.7rem; background: #fff; }
-.about-page .home-featured .home-work-link-code:hover { border-color: #9eb4d2; background: #edf2f9; }
-.about-page .home-technical-reports .bibliography > li { padding: 1.5rem 0; border-bottom: 1px solid var(--home-rule); }
-.about-page .home-technical-reports .bibliography > li:first-child { padding-top: 0; }
-.about-page .home-technical-reports .bibliography > li + li { margin-top: 0; }
-.about-page .home-report { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1.5rem; align-items: start; }
-.about-page .home-work-year { margin: .2rem 0 0; color: var(--home-muted); font-size: .88rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
+/* Shared publication cards and report lists. */
+.academic-page .home-work-content { min-width: 0; }
+.academic-page .home-featured { padding: 1.8rem 2rem; border: 1px solid #d7e1ee; border-radius: 12px; background: #f7f9fc; }
+.academic-page .home-work-badge { display: inline-block; max-width: 100%; margin: 0 0 1rem; padding: .3rem .65rem; border: 1px solid #d9e4f5; border-radius: 6px; background: #eaf0f9; color: #244d83; font-size: .8rem; font-weight: 600; line-height: 1.5; }
+.academic-page .home-work-title { margin: 0 0 .65rem; font-size: 1.15rem; font-weight: 600; line-height: 1.5; }
+.academic-page .home-featured .home-work-title { max-width: 45rem; font-size: 1.35rem; line-height: 1.45; letter-spacing: -.015em; }
+.academic-page .home-work-title a:hover { text-decoration-thickness: 1px; text-underline-offset: .18em; }
+.academic-page .home-work-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: .2rem .7rem; color: var(--home-muted); font-size: .88rem; line-height: 1.6; }
+.academic-page .home-work-authors, .academic-page .home-work-type { margin: 0; color: var(--home-muted); }
+.academic-page .home-work-authors strong { color: inherit; font-weight: 500; }
+.academic-page .home-work-type { padding-left: .7rem; border-left: 1px solid #cdd3db; }
+.academic-page .home-work-links { display: flex; align-items: center; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .8rem; }
+.academic-page .home-work-link { display: inline-flex; align-items: center; justify-content: center; gap: .35rem; min-height: 36px; color: #315b93; font-size: .88rem; line-height: 1.4; }
+.academic-page .home-featured .home-work-links { gap: .5rem 1.2rem; margin-top: 1.3rem; }
+.academic-page .home-featured .home-work-link-paper, .academic-page .home-featured .home-work-link-code { padding: .45rem .85rem; border: 1px solid #cbd6e4; border-radius: 6px; font-weight: 500; text-decoration: none; }
+.academic-page .home-featured .home-work-link-paper { border-color: #2455a4; background: #2455a4; color: #fff; }
+.academic-page .home-featured .home-work-link-paper:hover { border-color: #1a407e; background: #1a407e; }
+.academic-page .home-featured .home-work-link-code { margin-left: -.7rem; background: #fff; }
+.academic-page .home-featured .home-work-link-code:hover { border-color: #9eb4d2; background: #edf2f9; }
+.academic-page .home-technical-reports .bibliography > li { padding: 1.5rem 0; border-bottom: 1px solid var(--home-rule); }
+.academic-page .home-technical-reports .bibliography > li:first-child { padding-top: 0; }
+.academic-page .home-technical-reports .bibliography > li + li { margin-top: 0; }
+.academic-page .home-report { display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1.5rem; align-items: start; }
+.academic-page .home-work-year { margin: .2rem 0 0; color: var(--home-muted); font-size: .88rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
 
 /* Research dates share a fixed column, with the current appointment accented. */
 .about-page .home-experience-list { list-style: none; padding: 0; margin: 0 0 .6rem; }
@@ -89,17 +89,17 @@
   .about-page .home-links { gap: .35rem .6rem; margin-top: 1rem; font-size: .95rem; }
   .about-page section { margin-top: 2rem; padding-top: 1.8rem; }
   .about-page section h2 { font-size: 1.7rem; margin-bottom: 1.5rem; }
-  .about-page .home-featured { padding: 1.35rem 1.2rem; border-radius: 10px; }
-  .about-page .home-featured .home-work-title { font-size: 1.17rem; line-height: 1.5; }
-  .about-page .home-featured .home-work-links { display: grid; grid-template-columns: max-content max-content; gap: .35rem .5rem; }
-  .about-page .home-featured .home-work-link-code { margin-left: 0; }
-  .about-page .home-featured .home-work-link:not(.home-work-link-paper):not(.home-work-link-code) { justify-content: flex-start; }
-  .about-page .home-work-badge { font-size: .76rem; }
-  .about-page .home-work-title { font-size: 1.06rem; }
-  .about-page .home-report { grid-template-columns: 1fr; gap: .5rem; }
-  .about-page .home-work-year { margin: 0; font-size: .8rem; }
-  .about-page .home-work-links { column-gap: 1.2rem; margin-top: .6rem; }
-  .about-page .home-work-link { min-height: 44px; }
+  .academic-page .home-featured { padding: 1.35rem 1.2rem; border-radius: 10px; }
+  .academic-page .home-featured .home-work-title { font-size: 1.17rem; line-height: 1.5; }
+  .academic-page .home-featured .home-work-links { display: grid; grid-template-columns: max-content max-content; gap: .35rem .5rem; }
+  .academic-page .home-featured .home-work-link-code { margin-left: 0; }
+  .academic-page .home-featured .home-work-link:not(.home-work-link-paper):not(.home-work-link-code) { justify-content: flex-start; }
+  .academic-page .home-work-badge { font-size: .76rem; }
+  .academic-page .home-work-title { font-size: 1.06rem; }
+  .academic-page .home-report { grid-template-columns: 1fr; gap: .5rem; }
+  .academic-page .home-work-year { margin: 0; font-size: .8rem; }
+  .academic-page .home-work-links { column-gap: 1.2rem; margin-top: .6rem; }
+  .academic-page .home-work-link { min-height: 44px; }
   .about-page .home-experience-entry { grid-template-columns: 1fr; gap: .5rem; padding: 1.5rem 0; }
   .about-page .home-experience-date { font-size: .8rem; }
   .about-page .home-experience-content h3 { font-size: 1.08rem; }

@@ -33,7 +33,7 @@ nav_order: 3
 
 <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h2>CHEI Lab, UC San Diego</h2><div class="resume-date">Jun–Aug 2026</div></div>
+    <div class="resume-entry-header"><h2>UC San Diego</h2><div class="resume-date">Jun–Aug 2026</div></div>
     <p class="resume-role">Research Intern</p>
     <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
     <ul>

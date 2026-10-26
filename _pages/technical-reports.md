@@ -6,6 +6,6 @@ nav: true
 nav_order: 2
 ---
 
-<div class="home-publication-list full-publication-list">
-{% bibliography --group_by none --query @techreport --template home-paper %}
+<div class="home-publication-list home-technical-reports">
+{% bibliography --group_by none --query @techreport --template home-work %}
 </div>

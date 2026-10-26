@@ -10,7 +10,7 @@
   home: false
   summary: Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST). Built a resource scheduler for on-device LLMs, achieving 2.0× retrieval throughput over a fixed scheduling baseline under the same latency constraint. Paper accepted to the NeurIPS 2026 ODI Workshop.
 - organization: University of California, San Diego
-  role: Research Intern, CHEI Lab
+  role: Research Intern
   advisor: Prof. Falko Kuester
   period: Jun–Aug 2026
   topic: Infrastructure Anomaly Detection

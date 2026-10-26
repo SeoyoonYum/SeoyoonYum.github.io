@@ -35,8 +35,7 @@ nav_order: 4
   <h2 id="research-heading">Research experience</h2>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>SEAL Lab, KAIST</h3><div class="resume-date">Sep 2026–Present</div></div>
-      <p class="resume-role">Undergraduate Researcher</p>
+    <div class="resume-entry-header"><h3>SEAL Lab, KAIST — Undergraduate Researcher</h3><div class="resume-date">Sep 2026–Present</div></div>
       <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
       <ul>
         <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
@@ -46,8 +45,7 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>PhaseGate</h3><div class="resume-date">Jun 2026–Present</div></div>
-      <p class="resume-role">Research Project</p>
+    <div class="resume-entry-header"><h3>PhaseGate — Research Project</h3><div class="resume-date">Jun 2026–Present</div></div>
       <p class="resume-meta">Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST).</p>
       <ul>
         <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
@@ -57,8 +55,7 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>CHEI Lab, UC San Diego</h3><div class="resume-date">Jun–Aug 2026</div></div>
-      <p class="resume-role">Research Intern</p>
+    <div class="resume-entry-header"><h3>UC San Diego — Research Intern</h3><div class="resume-date">Jun–Aug 2026</div></div>
       <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
       <ul>
         <li>Evaluated a <strong>time-series foundation model</strong> for zero-shot anomaly detection on real-world operational data.</li>
@@ -68,8 +65,7 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>SGVR Lab, KAIST</h3><div class="resume-date">Jan 2026</div></div>
-      <p class="resume-role">Undergraduate Researcher</p>
+    <div class="resume-entry-header"><h3>SGVR Lab, KAIST — Undergraduate Researcher</h3><div class="resume-date">Jan 2026</div></div>
       <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
         <li>Evaluated vision-language-action (VLA) policies in simulation under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
@@ -78,8 +74,7 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>CJ AI Center</h3><div class="resume-date">August 2023</div></div>
-      <p class="resume-role">Research Intern</p>
+    <div class="resume-entry-header"><h3>CJ AI Center — Research Intern</h3><div class="resume-date">August 2023</div></div>
       <ul>
         <li>Built a real-time EEG-to-robotic-arm brain–computer interface using <strong>PyTorch</strong>.</li>
       </ul>
@@ -102,15 +97,13 @@ nav_order: 4
   <h2 id="leadership-heading">Leadership</h2>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>KAIST American Football Club</h3><div class="resume-date">Sep 2025–Present</div></div>
-      <p class="resume-role">Captain</p>
+    <div class="resume-entry-header"><h3>KAIST American Football Club — Captain</h3><div class="resume-date">Sep 2025–Present</div></div>
       <p>Lead team practices, game strategy, and intra-university competitions.</p>
     </div>
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>Republic of Korea Army</h3><div class="resume-date">Jan 2024–Jul 2025</div></div>
-      <p class="resume-role">Squad Leader and English Interpreter</p>
+    <div class="resume-entry-header"><h3>Republic of Korea Army — Squad Leader and English Interpreter</h3><div class="resume-date">Jan 2024–Jul 2025</div></div>
       <p>Led eight soldiers and interpreted between Republic of Korea and U.S. military personnel.</p>
     </div>
   </div>
