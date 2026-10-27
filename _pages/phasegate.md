@@ -6,7 +6,7 @@ permalink: /research/phasegate/
 nav: false
 ---
 
-**Seoyoon Yum and Sehoon Kim · Accepted to the NeurIPS 2026 ODI Workshop**
+**Seoyoon Yum and Sehoon Kim · Accepted to the NeurIPS 2026 Workshop on On-Device Intelligence**
 
 [Paper](https://arxiv.org/abs/2610.04537) · [PDF](https://arxiv.org/pdf/2610.04537) · [Code and experiments](https://github.com/SeoyoonYum/PhaseGate)
 

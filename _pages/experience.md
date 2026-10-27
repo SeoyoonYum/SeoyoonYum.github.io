@@ -26,7 +26,7 @@ nav_order: 3
     <p class="resume-meta">Initiated and led the research; co-authored the paper with Prof. Sehoon Kim (KAIST).</p>
     <ul>
       <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
-      <li>Paper accepted to the <strong>NeurIPS 2026 ODI Workshop</strong>.</li>
+      <li>Paper accepted to the <strong>NeurIPS 2026 Workshop on On-Device Intelligence</strong>.</li>
     </ul>
   </div>
 </div>

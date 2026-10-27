@@ -49,7 +49,7 @@ nav_order: 4
       <p class="resume-meta">Independently initiated; subsequently collaborated with Prof. Sehoon Kim (KAIST).</p>
       <ul>
         <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
-        <li>Paper accepted to the <strong>NeurIPS 2026 ODI Workshop</strong>.</li>
+        <li>Paper accepted to the <strong>NeurIPS 2026 Workshop on On-Device Intelligence</strong>.</li>
       </ul>
     </div>
   </div>
@@ -88,7 +88,7 @@ nav_order: 4
     <li>
       <h3><a href="https://arxiv.org/abs/2610.04537">PhaseGate: Phase-Aware CPU Retrieval Scheduling for On-Device LLMs on Unified Memory</a></h3>
       <p class="resume-meta">S. Yum and S. Kim · 2026</p>
-      <p>NeurIPS 2026 ODI Workshop.</p>
+      <p>NeurIPS 2026 Workshop on On-Device Intelligence: Foundation Models under Real-World Constraints.</p>
     </li>
   </ol>
 </section>
