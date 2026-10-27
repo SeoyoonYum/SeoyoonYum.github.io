@@ -10,7 +10,7 @@ nav_order: 3
 <div class="resume-entry">
   <div>
     <div class="resume-entry-header"><h2 id="seal">SEAL Lab, KAIST</h2><div class="resume-date">Sep 2026–Present<span class="resume-status">Current</span></div></div>
-    <p class="resume-role">Undergraduate Researcher</p>
+    <p class="resume-role">Research Intern</p>
     <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
     <ul>
       <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
