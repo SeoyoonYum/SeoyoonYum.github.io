@@ -8,7 +8,7 @@
         <div class="home-experience-content">
           <h3>{{ entry.organization | escape }}</h3>
           <p class="home-experience-role">{{ entry.role | escape }}{% if entry.advisor %} · {{ entry.advisor | escape }}{% endif %}</p>
-          {% if entry.topic %}<p class="home-experience-summary home-experience-topic">{{ entry.topic | escape }}</p>{% endif %}
+          <p class="home-experience-summary">{{ entry.summary | escape }}</p>
         </div>
       </li>
       {% endunless %}

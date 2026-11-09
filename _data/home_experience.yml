@@ -3,7 +3,7 @@
   advisor: Prof. Sehoon Kim
   period: Sep 2026–Present
   topic: Looped LLM Quantization
-  summary: Researching quantization performance in looped transformer models and optimizing inference kernels to improve speedups.
+  summary: Working on low-bit quantization and faster inference for looped LLMs.
 - organization: PhaseGate
   role: Research Project
   period: Jun 2026–Present
@@ -14,15 +14,15 @@
   advisor: Prof. Falko Kuester
   period: Jun–Aug 2026
   topic: Time-Series Anomaly Detection
-  summary: Evaluated zero-shot anomaly detection with a time-series foundation model on real-world operational data, identifying limitations of forecast residuals for genuine failure prediction.
+  summary: Evaluated time-series foundation models for infrastructure anomaly detection.
 - organization: KAIST · SGVR Lab
   role: Undergraduate Researcher
   advisor: Prof. Sung-Eui Yoon
   period: Jan 2026
   topic: VLA Semantic Robustness
-  summary: Evaluated the semantic robustness of vision-language-action (VLA) policies in simulation under meaning-preserving instruction changes; average success fell from 60% to 25%.
+  summary: Tested how instruction changes affect the robustness of VLA policies.
 - organization: CJ AI Center
   role: Research Intern
   period: August 2023
   topic: EEG-to-Robot Control
-  summary: Built a real-time brain–computer interface mapping EEG signals to robotic-arm commands using PyTorch.
+  summary: Developed a real-time interface that controls a robotic arm using EEG signals.
