@@ -2,7 +2,7 @@
   role: Research Intern
   advisor: Prof. Sehoon Kim
   period: Sep 2026–Present
-  topic: NVFP4 W4A4 Quantization for Looped Transformers
+  topic: Looped LLM Quantization
   summary: Researching quantization performance in looped transformer models and optimizing inference kernels to improve speedups.
 - organization: PhaseGate
   role: Research Project
@@ -13,16 +13,16 @@
   role: Research Intern
   advisor: Prof. Falko Kuester
   period: Jun–Aug 2026
-  topic: Infrastructure Anomaly Detection
+  topic: Time-Series Anomaly Detection
   summary: Evaluated zero-shot anomaly detection with a time-series foundation model on real-world operational data, identifying limitations of forecast residuals for genuine failure prediction.
 - organization: KAIST · SGVR Lab
   role: Undergraduate Researcher
   advisor: Prof. Sung-Eui Yoon
   period: Jan 2026
-  topic: Vision-Language-Action Models
+  topic: VLA Semantic Robustness
   summary: Evaluated the semantic robustness of vision-language-action (VLA) policies in simulation under meaning-preserving instruction changes; average success fell from 60% to 25%.
 - organization: CJ AI Center
   role: Research Intern
   period: August 2023
-  topic: EEG-to-Robotic-Arm Interface
+  topic: EEG-to-Robot Control
   summary: Built a real-time brain–computer interface mapping EEG signals to robotic-arm commands using PyTorch.
