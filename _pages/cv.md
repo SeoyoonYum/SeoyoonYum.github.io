@@ -35,7 +35,7 @@ nav_order: 4
   <h2 id="research-heading">Research experience</h2>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>SEAL Lab, KAIST</h3><div class="resume-date">Sep 2026–Present</div></div>
+    <div class="resume-entry-header"><h3>KAIST SEAL Lab</h3><div class="resume-date">Sep 2026–Present</div></div>
       <p class="resume-role">Research Intern, Advisor: Prof. Sehoon Kim</p>
       <ul>
         <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
@@ -66,7 +66,7 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>SGVR Lab, KAIST</h3><div class="resume-date">Jan 2026</div></div>
+    <div class="resume-entry-header"><h3>KAIST SGVR Lab</h3><div class="resume-date">Jan 2026</div></div>
       <p class="resume-role">Undergraduate Researcher, Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
         <li>Evaluated vision-language-action (VLA) policies in simulation under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
