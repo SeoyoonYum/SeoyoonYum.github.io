@@ -10,7 +10,7 @@ nav_order: 4
   <a class="resume-download" href="{{ '/assets/pdf/Seoyoon_Yum_CV.pdf' | relative_url }}">Download CV (PDF) <span aria-hidden="true">&nbsp;↓</span></a>
   <span class="resume-meta">Updated November 2026</span>
 </div>
-<p class="resume-meta"><a href="https://scholar.google.com/citations?user=Ck0gPk0AAAAJ">Google Scholar</a> · <a href="https://github.com/SeoyoonYum">GitHub</a></p>
+<p class="resume-meta"><a href="https://scholar.google.com/citations?user=Ck0gPk0AAAAJ">Google Scholar</a> · <a href="https://github.com/SeoyoonYum">GitHub</a> · <a href="https://www.linkedin.com/in/seoyoon-yum-63b924201">LinkedIn</a></p>
 <nav class="resume-nav" aria-label="CV sections">
   <a href="#education">Education</a>
   <a href="#research">Research</a>
@@ -36,8 +36,7 @@ nav_order: 4
   <div class="resume-entry">
   <div>
     <div class="resume-entry-header"><h3>SEAL Lab, KAIST</h3><div class="resume-date">Sep 2026–Present</div></div>
-      <p class="resume-role">Research Intern</p>
-      <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
+      <p class="resume-role">Research Intern, Advisor: Prof. Sehoon Kim</p>
       <ul>
         <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
         <li>Optimizing inference kernels to improve inference speedups.</li>
@@ -58,8 +57,7 @@ nav_order: 4
   <div class="resume-entry">
   <div>
     <div class="resume-entry-header"><h3>UC San Diego</h3><div class="resume-date">Jun–Aug 2026</div></div>
-      <p class="resume-role">Research Intern</p>
-      <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
+      <p class="resume-role">Research Intern, Advisor: Prof. Falko Kuester</p>
       <ul>
         <li>Evaluated a <strong>time-series foundation model</strong> for zero-shot anomaly detection on real-world operational data.</li>
         <li>Evaluated proxy anomalies and alert-volume tradeoffs; forecast residuals did <strong>not reliably predict genuine failures</strong>.</li>
@@ -69,8 +67,7 @@ nav_order: 4
   <div class="resume-entry">
   <div>
     <div class="resume-entry-header"><h3>SGVR Lab, KAIST</h3><div class="resume-date">Jan 2026</div></div>
-      <p class="resume-role">Undergraduate Researcher</p>
-      <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
+      <p class="resume-role">Undergraduate Researcher, Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
         <li>Evaluated vision-language-action (VLA) policies in simulation under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
       </ul>
