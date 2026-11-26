@@ -7,7 +7,7 @@ nav_order: 4
 ---
 
 <div class="resume-toolbar">
-  <a class="resume-download" href="{{ '/assets/pdf/Seoyoon_Yum_CV.pdf' | relative_url }}">Download CV (PDF) <span aria-hidden="true">&nbsp;↓</span></a>
+  <a class="resume-download" href="{{ site.data.socials.cv_pdf | relative_url }}">Download CV (PDF) <span aria-hidden="true">&nbsp;↓</span></a>
   <span class="resume-meta">Updated November 2026</span>
 </div>
 <p class="resume-meta"><a href="https://scholar.google.com/citations?user=Ck0gPk0AAAAJ">Google Scholar</a> · <a href="https://github.com/SeoyoonYum">GitHub</a> · <a href="https://www.linkedin.com/in/seoyoon-yum-63b924201">LinkedIn</a></p>
