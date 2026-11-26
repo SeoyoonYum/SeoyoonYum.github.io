@@ -46,6 +46,17 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
+    <div class="resume-entry-header"><h3>Independent Research</h3><div class="resume-date">Jun – Sep 2026</div></div>
+      <p class="resume-role">Researcher, PhaseGate</p>
+      <p class="resume-meta">Collaborator: Prof. Sehoon Kim (KAIST)</p>
+      <ul>
+        <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
+        <li>Paper accepted to the <strong>NeurIPS 2026 Workshop on On-Device Intelligence</strong>.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="resume-entry">
+  <div>
     <div class="resume-entry-header"><h3>University of California, San Diego</h3><div class="resume-date">Jun – Aug 2026</div></div>
       <p class="resume-role">Research Intern, Qualcomm Institute (CHEI)</p>
       <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
@@ -71,17 +82,6 @@ nav_order: 4
       <p class="resume-role">Research Intern</p>
       <ul>
         <li>Built a real-time EEG-to-robotic-arm brain–computer interface using <strong>PyTorch</strong>.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="resume-entry">
-  <div>
-    <div class="resume-entry-header"><h3>Independent Research</h3><div class="resume-date">Jun – Sep 2026</div></div>
-      <p class="resume-role">Researcher, PhaseGate</p>
-      <p class="resume-meta">Collaborator: Prof. Sehoon Kim (KAIST)</p>
-      <ul>
-        <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
-        <li>Paper accepted to the <strong>NeurIPS 2026 Workshop on On-Device Intelligence</strong>.</li>
       </ul>
     </div>
   </div>
