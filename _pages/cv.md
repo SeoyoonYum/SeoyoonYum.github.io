@@ -35,8 +35,9 @@ nav_order: 4
   <h2 id="research-heading">Research experience</h2>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>KAIST SEAL Lab</h3><div class="resume-date">Sep 2026–Present</div></div>
-      <p class="resume-role">Research Intern, Advisor: Prof. Sehoon Kim</p>
+    <div class="resume-entry-header"><h3>KAIST</h3><div class="resume-date">Sep – Present 2026</div></div>
+      <p class="resume-role">Research Intern, SEAL Lab</p>
+      <p class="resume-meta">Advisor: Prof. Sehoon Kim</p>
       <ul>
         <li>Researching NVFP4 W4A4 quantization and its performance in looped transformer models.</li>
         <li>Optimizing inference kernels to improve inference speedups.</li>
@@ -45,19 +46,9 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>PhaseGate</h3><div class="resume-date">Jun. 2026 – Sep. 2026</div></div>
-      <p class="resume-role">Self-Initiated Research Project</p>
-      <p class="resume-meta">Independently initiated; subsequently collaborated with Prof. Sehoon Kim (KAIST).</p>
-      <ul>
-        <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
-        <li>Paper accepted to the <strong>NeurIPS 2026 Workshop on On-Device Intelligence</strong>.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="resume-entry">
-  <div>
-    <div class="resume-entry-header"><h3>UC San Diego</h3><div class="resume-date">Jun–Aug 2026</div></div>
-      <p class="resume-role">Research Intern, Advisor: Prof. Falko Kuester</p>
+    <div class="resume-entry-header"><h3>University of California, San Diego</h3><div class="resume-date">Jun – Aug 2026</div></div>
+      <p class="resume-role">Research Intern, Qualcomm Institute (CHEI)</p>
+      <p class="resume-meta">Advisor: Prof. Falko Kuester</p>
       <ul>
         <li>Evaluated a <strong>time-series foundation model</strong> for zero-shot anomaly detection on real-world operational data.</li>
         <li>Evaluated proxy anomalies and alert-volume tradeoffs; forecast residuals did <strong>not reliably predict genuine failures</strong>.</li>
@@ -66,8 +57,9 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>KAIST SGVR Lab</h3><div class="resume-date">Jan 2026</div></div>
-      <p class="resume-role">Undergraduate Researcher, Advisor: Prof. Sung-Eui Yoon</p>
+    <div class="resume-entry-header"><h3>KAIST</h3><div class="resume-date">Jan 2026</div></div>
+      <p class="resume-role">Undergraduate Researcher, SGVR Lab</p>
+      <p class="resume-meta">Advisor: Prof. Sung-Eui Yoon</p>
       <ul>
         <li>Evaluated vision-language-action (VLA) policies in simulation under 11 meaning-preserving perturbations: average success fell from <strong>60% to 25%</strong>, with structural edits causing the largest drop.</li>
       </ul>
@@ -75,10 +67,21 @@ nav_order: 4
   </div>
   <div class="resume-entry">
   <div>
-    <div class="resume-entry-header"><h3>CJ AI Center</h3><div class="resume-date">August 2023</div></div>
+    <div class="resume-entry-header"><h3>CJ AI Center</h3><div class="resume-date">Aug 2023</div></div>
       <p class="resume-role">Research Intern</p>
       <ul>
         <li>Built a real-time EEG-to-robotic-arm brain–computer interface using <strong>PyTorch</strong>.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="resume-entry">
+  <div>
+    <div class="resume-entry-header"><h3>Independent Research</h3><div class="resume-date">Jun – Sep 2026</div></div>
+      <p class="resume-role">Researcher, PhaseGate</p>
+      <p class="resume-meta">Collaborator: Prof. Sehoon Kim (KAIST)</p>
+      <ul>
+        <li>Built a resource scheduler for on-device LLMs, achieving <strong>2.0× retrieval throughput</strong> over a fixed scheduling baseline under the same latency constraint.</li>
+        <li>Paper accepted to the <strong>NeurIPS 2026 Workshop on On-Device Intelligence</strong>.</li>
       </ul>
     </div>
   </div>
